@@ -3,6 +3,12 @@ import Hero from "../components/Hero";
 import Partners from "../components/Partners";
 import ServicesComp from "../components/ServicesComp";
 import Welcome from "../components/Welcome";
+import Different from "../components/Different";
+import CoreValues from "../components/CoreValues";
+import Facet from "../components/Facet";
+import CTA from "../components/CTA";
+import Testimonials from "../components/Testimonials";
+import FAQ from "../components/FAQ";
 
 const Home = () => {
   return (
@@ -11,7 +17,12 @@ const Home = () => {
       <Partners />
       <ServicesComp />
       <Welcome />
-      <div className="h-[200vh]"></div>
+      <Different />
+      <CoreValues />
+      <Facet />
+      <CTA />
+      <Testimonials />
+      <FAQ />
     </div>
   );
 };

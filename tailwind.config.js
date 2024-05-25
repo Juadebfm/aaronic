@@ -6,6 +6,7 @@ export default {
       fontFamily: {
         mulish: ["Mulish", "sans-serif"],
         inter: ["Inter", "sans-serif"],
+        lato: ["Lato", "sans-serif"],
       },
       colors: {
         myYellow: "#ED9B05",
