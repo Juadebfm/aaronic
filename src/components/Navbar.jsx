@@ -3,8 +3,11 @@ import React from "react";
 import FullLogo from "../assets/fulllogo.png";
 import { Link, useLocation } from "react-router-dom";
 import Button from "./Button";
+import Modal from "./Modal";
+import useModal from "../utils/useModal";
 
 const Navbar = () => {
+  const { isOpen, openModal, closeModal } = useModal();
   const location = useLocation();
   return (
     <nav className="px-20 py-10 flex items-center justify-between fixed top-0 z-50 w-full bg-white">
@@ -72,10 +75,15 @@ const Navbar = () => {
           className="border border-myYellow text-myYellow hover:bg-myYellow hover:text-black"
         />
         <Button
+          onClick={openModal}
           btnText="Get Started"
           className="bg-myYellow text-black hover:shadow-md shadow-black"
         />
       </div>
+      <Modal isOpen={isOpen} onClose={closeModal}>
+        <h2 className="text-2xl font-bold">Modal Content</h2>
+        <p>This is the content of the modal.</p>
+      </Modal>
     </nav>
   );
 };
