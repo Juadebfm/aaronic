@@ -9,7 +9,7 @@ import Kemi from "../assets/kemi.png";
 
 const Testimonials = () => {
   return (
-    <div className="px-20 py-36 relative">
+    <div className="px-28 py-36 relative">
       <img
         src={Pattern}
         alt=""
@@ -28,7 +28,9 @@ const Testimonials = () => {
             <IoStar className="text-myYellow/50" />
           </div>
         </div>
-        <h2 className="capitalize text-[42px]">these Company trust us.</h2>
+        <h2 className="capitalize text-[42px] font-bold">
+          these Company trust us.
+        </h2>
 
         <div className="grid grid-cols-2 place-items-center place-content-center gap-16 mt-10">
           <div className="flex items-center justify-start bg-white gap-7 py-5 px-6 shadow-md shadow-gray-500 rounded-lg border-l-[4px] border-l-myYellow w-[500px] h-[150px]">
@@ -44,7 +46,7 @@ const Testimonials = () => {
                   KEM-KEM C.E.O
                 </span>
               </div>
-              <p className="font-light text-[12px]">
+              <p className="font-light text-[13px]">
                 Highly reliable and responsive team!
               </p>
               <div className="flex items-center justify-start gap-1 mt-3">
@@ -69,7 +71,7 @@ const Testimonials = () => {
                   Uhi-chan LTD. MD
                 </span>
               </div>
-              <p className="font-light text-[12px]">
+              <p className="font-light text-[13px]">
                 Their dedication to customer satisfaction and adherence to high
                 standards set them apart in the industry.
               </p>
@@ -95,7 +97,7 @@ const Testimonials = () => {
                   ONAM & CO. Founder.
                 </span>
               </div>
-              <p className="font-light text-[12px]">
+              <p className="font-light text-[13px]">
                 Their expertise in the industry and commitment to quality
                 ensured smooth transactions and reliable delivery.
               </p>
@@ -121,7 +123,7 @@ const Testimonials = () => {
                   Memo B Co-Founder
                 </span>
               </div>
-              <p className="font-light text-[12px]">
+              <p className="font-light text-[13px]">
                 Excellent experience working with Aaronic Energy Limited for our
                 oil trading requirements.
               </p>
@@ -147,7 +149,7 @@ const Testimonials = () => {
                   KAMCO Founder & C.E.O
                 </span>
               </div>
-              <p className="font-light text-[12px]">
+              <p className="font-light text-[13px]">
                 Their team demonstrated deep industry knowledge and integrity in
                 every interaction.
               </p>
@@ -173,7 +175,7 @@ const Testimonials = () => {
                   MELBOND C.E.O
                 </span>
               </div>
-              <p className="font-light text-[12px]">
+              <p className="font-light text-[13px]">
                 Their team demonstrated deep industry knowledge and integrity in
                 every interaction.
               </p>

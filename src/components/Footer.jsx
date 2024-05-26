@@ -7,18 +7,45 @@ import { FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className=" px-20 ">
-      <div className="pt-20 pb-14 h-max flex items-start gap-20 justify-center border-b border-myYellow">
+    <footer className="px-28">
+      <div className="pt-20 pb-14 h-max flex items-start gap-40 justify-center border-b border-myYellow">
         <div className="w-[204px] h-auto">
           <img src={Aaronic} alt="Aaronic" />
         </div>
-        <div className="grid grid-cols-3 gap-20 w-full">
+        <div className="grid grid-cols-3 gap-28 w-full">
           <div className="space-y-5">
             <span className="text-[18px] font-bold">Company</span>
             <ul className="flex flex-col items-start justify-start space-y-4">
-              <Link>Ship Management</Link>
-              <Link>Oil & Gas Trading</Link>
-              <Link>Marine Logistics</Link>
+              <Link
+                to="/view_shipping"
+                className={`${
+                  location.pathname === "/view_shipping"
+                    ? "text-gray-500"
+                    : "text-black"
+                } underline-offset-4 transition-all duration-150 ease-linear hover:text-gray-500`}
+              >
+                Ship Management
+              </Link>
+              <Link
+                to="/oil_gas"
+                className={`${
+                  location.pathname === "/oil_gas"
+                    ? "text-gray-500"
+                    : "text-black"
+                } underline-offset-4 transition-all duration-150 ease-linear hover:text-gray-500`}
+              >
+                Oil & Gas Trading
+              </Link>
+              <Link
+                to="/marine_logistics"
+                className={`${
+                  location.pathname === "/marine_logistics"
+                    ? "text-gray-500"
+                    : "text-black"
+                } underline-offset-4 transition-all duration-150 ease-linear hover:text-gray-500`}
+              >
+                Marine Logistics
+              </Link>
               <Link>Sailors Management</Link>
             </ul>
           </div>
@@ -37,12 +64,12 @@ const Footer = () => {
               <Link>Social Proof</Link>
               <Link>Contact Us</Link>
               <Link>Help Center</Link>
-              <Link>FAQs</Link>
+              <Link to="/FAQ">FAQs</Link>
             </ul>
           </div>
         </div>
       </div>
-      <div className="px-20 py-7 flex items-center justify-between">
+      <div className="px-28 py-7 flex items-center justify-between">
         <span>@2024. All rights reserved</span>
         <div className="flex items-center justify-center gap-5">
           <Link>

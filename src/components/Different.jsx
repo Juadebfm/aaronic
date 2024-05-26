@@ -22,7 +22,7 @@ const Different = () => {
         <h2 className="text-[40px] text-white font-bold mt-5">
           What Makes Us Different
         </h2>
-        <div className="grid grid-cols-4 place-items-center place-content-center gap-10 px-20 mt-10">
+        <div className="grid grid-cols-4 place-items-center place-content-center gap-10 px-28 mt-10">
           <div className="flex flex-col items-center">
             <img src={Pointing} alt="Lady Pointing" className="mb-4" />
             <div

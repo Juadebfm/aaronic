@@ -116,3 +116,22 @@ body.modal-open {
   z-index: 100;
   border-radius: 8px;
 }
+
+.relative .capitalize:hover + .hidden-div {
+  display: block;
+}
+
+.hidden-div {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0%; /* Moves the div to the left of the parent */
+  width: 500px; /* Adjust width as necessary */
+  height: 285px;
+  padding: 1rem;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  border-radius: 8px;
+  transform: translateX(-100%); /* Ensures it displays to the left */
+}

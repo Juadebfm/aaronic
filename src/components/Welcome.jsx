@@ -7,7 +7,7 @@ import Ninety from "../assets/90+.png";
 
 const Welcome = () => {
   return (
-    <div className="px-20 py-10 grid grid-cols-2 place-content-center place-items-center">
+    <div className="px-28 py-10 grid grid-cols-2 place-content-center place-items-center">
       <div>
         <img src={AEnergy} alt="Welcome to our company" />
       </div>

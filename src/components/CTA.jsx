@@ -7,7 +7,7 @@ const CTA = () => {
   const { isOpen, openModal, closeModal } = useModal();
 
   return (
-    <div className="h-[40vh] bg-myYellow px-20 flex flex-col items-center justify-center">
+    <div className="h-[40vh] bg-myYellow px-28 flex flex-col items-center justify-center">
       <h3 className="font-bold text-[56px] leading-none">
         Contact Aaronic Energy Today
       </h3>

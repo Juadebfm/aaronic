@@ -7,6 +7,10 @@ import Careers from "./pages/Careers";
 import Contact from "./pages/Contact";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import FAQs from "./pages/FAQs";
+import OilGas from "./pages/OilGas";
+import ViewShipping from "./pages/ViewShipping";
+import MarineLogistics from "./pages/MarineLogistics";
 
 const App = () => {
   return (
@@ -19,6 +23,10 @@ const App = () => {
           <Route path="/services" element={<Service />} />
           <Route path="/careers" element={<Careers />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/FAQ" element={<FAQs />} />
+          <Route path="/oil_gas" element={<OilGas />} />
+          <Route path="/view_shipping" element={<ViewShipping />} />
+          <Route path="/marine_logistics" element={<MarineLogistics />} />
         </Routes>
         <Footer />
       </Router>

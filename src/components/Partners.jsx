@@ -6,7 +6,7 @@ import Partner4 from "../assets/milan_partners.png";
 
 const Partners = () => {
   return (
-    <div className="flex items-center justify-center flex-col px-20 py-20 gap-10">
+    <div className="flex items-center justify-center flex-col px-28 py-20 gap-10">
       <h2 className="text-[24px] font-bold">Our Partners</h2>
       <div className="grid grid-cols-4 place-items-center gap-10">
         <img

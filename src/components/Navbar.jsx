@@ -10,7 +10,7 @@ const Navbar = () => {
   const { isOpen, openModal, closeModal } = useModal();
   const location = useLocation();
   return (
-    <nav className="px-20 py-10 flex items-center justify-between fixed top-0 z-50 w-full bg-white">
+    <nav className="px-28 py-10 flex items-center justify-between fixed top-0 z-50 w-full bg-white">
       {/* Logo */}
       <div className="w-auto h-auto">
         <img src={FullLogo} alt="Aaronic" className="w-[180px] h-auto" />
@@ -70,10 +70,12 @@ const Navbar = () => {
       </ul>
       {/* NavBtns */}
       <div className="flex gap-4">
-        <Button
-          btnText="Contact Us"
-          className="border border-myYellow text-myYellow hover:bg-myYellow hover:text-black"
-        />
+        <Link to="/contact">
+          <Button
+            btnText="Contact Us"
+            className="border border-myYellow text-myYellow hover:bg-myYellow hover:text-black"
+          />
+        </Link>
         <Button
           onClick={openModal}
           btnText="Get Started"

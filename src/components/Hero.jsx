@@ -1,7 +1,7 @@
 import React from "react";
 
-import HeroImg1 from "../assets/hero_image_man_laptop.png";
-import HeroImg2 from "../assets/hero_image_man_proud.png";
+import HeroImg1 from "../assets/newHero1.jpg";
+import HeroImg2 from "../assets/newHero2.jpg";
 import HeroImg3 from "../assets/hero_img_man_folding_hands.png";
 import SettingsIcon from "../assets/settings-icon.svg";
 
@@ -36,7 +36,7 @@ const Hero = () => {
         className="mySwiper h-max"
       >
         <SwiperSlide className="relative">
-          <div className="absolute left-0 top-1/2 transform -translate-y-1/2 px-20 w-[45%]">
+          <div className="absolute left-0 top-1/2 transform -translate-y-1/2 px-28 w-[45%]">
             <div className="flex items-center bg-myYellow/70 text-white py-3 px-6 w-max">
               <img src={SettingsIcon} alt="Settings" className="mr-2" />
               <p className="drop-shadow-sm font-light text-[18px]">
@@ -57,7 +57,7 @@ const Hero = () => {
         </SwiperSlide>
 
         <SwiperSlide>
-          <div className="absolute right-0 top-1/2 transform -translate-y-1/2 pr-20 w-[45%]">
+          <div className="absolute right-0 top-1/2 transform -translate-y-1/2 pr-28 w-[45%]">
             <div className="flex items-center bg-myYellow/70 text-white py-3 px-6 w-max">
               <img src={SettingsIcon} alt="Settings" className="mr-2" />
               <p className="drop-shadow-sm font-light text-[18px]">
@@ -77,7 +77,7 @@ const Hero = () => {
           <img src={HeroImg1} alt="Engineers" />
         </SwiperSlide>
         <SwiperSlide>
-          <div className="absolute left-0 top-1/2 transform -translate-y-1/2 px-20 w-[45%]">
+          <div className="absolute left-0 top-1/2 transform -translate-y-1/2 px-28 w-[45%]">
             <div className="flex items-center bg-myYellow/70 text-white py-3 px-6 w-max">
               <img src={SettingsIcon} alt="Settings" className="mr-2" />
               <p className="drop-shadow-sm font-light text-[18px]">
