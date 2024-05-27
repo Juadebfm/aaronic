@@ -93,7 +93,7 @@ const Navbar = () => {
           className="bg-myYellow text-black hover:shadow-md shadow-black"
         />
       </div>
-      <FiMenu size={35} className="cursor-pointer" />
+      <FiMenu size={35} className="cursor-pointer block md:hidden" />
 
       <Modal isOpen={isOpen} onClose={closeModal}>
         <h2 className="text-2xl font-bold">Modal Content</h2>
