@@ -1,22 +1,33 @@
 // Navbar.js
 import React from "react";
 import FullLogo from "../assets/fulllogo.png";
+import SmallLogo from "../assets/aaronicSmall.png";
 import { Link, useLocation } from "react-router-dom";
 import Button from "./Button";
 import Modal from "./Modal";
 import useModal from "../utils/useModal";
+import { FiMenu } from "react-icons/fi";
 
 const Navbar = () => {
   const { isOpen, openModal, closeModal } = useModal();
   const location = useLocation();
   return (
-    <nav className="px-28 py-10 flex items-center justify-between fixed top-0 z-50 w-full bg-white">
+    <nav className="px-[35px] md:px-28 py-7 md:py-10 flex items-center justify-between fixed top-0 z-50 w-full bg-white">
       {/* Logo */}
       <div className="w-auto h-auto">
-        <img src={FullLogo} alt="Aaronic" className="w-[180px] h-auto" />
+        <img
+          src={FullLogo}
+          alt="Aaronic"
+          className="hidden md:flex w-[180px] h-auto"
+        />
+        <img
+          src={SmallLogo}
+          alt="Aaronic"
+          className="block md:hidden w-[35px] h-[35px]"
+        />
       </div>
       {/* NavItems */}
-      <ul className="flex items-center justify-between gap-8 font-semibold">
+      <ul className="hidden md:flex items-center justify-between gap-8 font-semibold">
         <li>
           <Link
             to="/"
@@ -69,7 +80,7 @@ const Navbar = () => {
         </li>
       </ul>
       {/* NavBtns */}
-      <div className="flex gap-4">
+      <div className="hidden md:flex gap-4">
         <Link to="/contact">
           <Button
             btnText="Contact Us"
@@ -82,6 +93,8 @@ const Navbar = () => {
           className="bg-myYellow text-black hover:shadow-md shadow-black"
         />
       </div>
+      <FiMenu size={35} className="cursor-pointer" />
+
       <Modal isOpen={isOpen} onClose={closeModal}>
         <h2 className="text-2xl font-bold">Modal Content</h2>
         <p>This is the content of the modal.</p>

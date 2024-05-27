@@ -7,11 +7,11 @@ const CTA = () => {
   const { isOpen, openModal, closeModal } = useModal();
 
   return (
-    <div className="h-[40vh] bg-myYellow px-28 flex flex-col items-center justify-center">
-      <h3 className="font-bold text-[56px] leading-none">
+    <div className="h-max md:h-[40vh] bg-myYellow px-[1.5rem] md:px-28 py-[2.5rem] md:py-0 flex flex-col items-center justify-center">
+      <h3 className="font-bold text-3xl md:text-[56px] leading-none text-center mb-4">
         Contact Aaronic Energy Today
       </h3>
-      <p className="font-extralight text-[24px] w-[35%] text-center mb-5">
+      <p className="font-extralight text-base md:text-[24px] w-full md:w-[35%] text-center mb-5">
         Reach out to us with your inquiries or to explore partnership
         opportunities.
       </p>

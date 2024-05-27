@@ -5,7 +5,7 @@ import MarineLogistics from "../assets/marinelogistics.png";
 import Slanted from "../assets/slanted_orange.png";
 const ServicesComp = () => {
   return (
-    <div className="flex items-center justify-center gap-24 p-40">
+    <div className="flex flex-col md:flex-row items-center justify-center gap-24 p-[35px] py-10 mt-10 md:mt-0 md:p-40">
       <div className="w-[311px] h-[373px] relative">
         <img src={Slanted} alt="" />
         <div className="absolute -top-7 w-full h-full">

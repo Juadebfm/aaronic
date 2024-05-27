@@ -33,18 +33,20 @@ const Hero = () => {
           disableOnInteraction: false,
         }}
         modules={[Autoplay, Pagination, Navigation]}
-        className="mySwiper h-max"
+        className="mySwiper h-screen md:h-max"
       >
         <SwiperSlide className="relative">
-          <div className="absolute left-0 top-1/2 transform -translate-y-1/2 px-28 w-[45%]">
-            <div className="flex items-center bg-myYellow/70 text-white py-3 px-6 w-max">
+          <div className="absolute left-0 top-1/2 transform -translate-y-1/2 px-[35px] md:px-28 w-full md:w-[45%]">
+            <div className="flex items-center bg-myYellow/70 text-white py-3 px-6 w-full md:w-max">
               <img src={SettingsIcon} alt="Settings" className="mr-2" />
-              <p className="drop-shadow-sm font-light text-[18px]">
+              <p className="drop-shadow-sm font-light text-sm md:text-[18px] w-full md:w-auto">
                 We Provide Electric Services For Industrial Project
               </p>
             </div>
-            <h1 className="text-[56px] font-bold">Safety is our priority</h1>
-            <p className="text-[18px] w-[85%] font-light">
+            <h1 className="text-3xl md:text-[56px] font-bold">
+              Safety is our priority
+            </h1>
+            <p className="text-base md:text-[18px] w-full md:w-[85%] font-light">
               At Aaronic Energy Limited, safety isn't just a priority. It is a
               core value as we adhere to stringent safety standards, comply with
               regulations, and continuously strive for improvement. <br /> With
@@ -53,19 +55,25 @@ const Hero = () => {
               and the public.
             </p>
           </div>
-          <img src={HeroImg3} alt="Engineers" className="h-auto w-full" />
+          <img
+            src={HeroImg3}
+            alt="Engineers"
+            className="h-full md:h-auto w-full"
+          />
         </SwiperSlide>
 
         <SwiperSlide>
-          <div className="absolute right-0 top-1/2 transform -translate-y-1/2 pr-28 w-[45%]">
-            <div className="flex items-center bg-myYellow/70 text-white py-3 px-6 w-max">
+          <div className="absolute right-0 top-1/2 transform -translate-y-1/2 pr-[35px] md:pr-28 pl-[35px] md:pl-0 w-full md:w-[45%]">
+            <div className="flex items-center bg-myYellow/70 text-white py-3 px-6 w-full md:w-max">
               <img src={SettingsIcon} alt="Settings" className="mr-2" />
-              <p className="drop-shadow-sm font-light text-[18px]">
+              <p className="drop-shadow-sm font-light text-sm md:text-[18px] w-full md:w-auto">
                 We Provide Electric Services For Industrial Project
               </p>
             </div>
-            <h1 className="text-[56px] font-bold">Safety is our priority</h1>
-            <p className="text-[18px] w-[85%] font-light">
+            <h1 className="text-3xl md:text-[56px] font-bold">
+              Safety is our priority
+            </h1>
+            <p className="text-base md:text-[18px] w-full md:w-[85%] font-light">
               At Aaronic Energy Limited, safety isn't just a priority. It is a
               core value as we adhere to stringent safety standards, comply with
               regulations, and continuously strive for improvement. <br /> With
@@ -74,18 +82,24 @@ const Hero = () => {
               and the public.
             </p>
           </div>
-          <img src={HeroImg1} alt="Engineers" />
+          <img
+            src={HeroImg1}
+            alt="Engineers"
+            className="h-full md:h-auto w-full"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <div className="absolute left-0 top-1/2 transform -translate-y-1/2 px-28 w-[45%]">
-            <div className="flex items-center bg-myYellow/70 text-white py-3 px-6 w-max">
+          <div className="absolute left-0 top-1/2 transform -translate-y-1/2 px-[35px] md:px-28 w-full md:w-[45%]">
+            <div className="flex items-center bg-myYellow/70 text-white py-3 px-6 w-full md:w-max">
               <img src={SettingsIcon} alt="Settings" className="mr-2" />
-              <p className="drop-shadow-sm font-light text-[18px]">
+              <p className="drop-shadow-sm font-light text-sm md:text-[18px] w-full md:w-auto">
                 We Provide Electric Services For Industrial Project
               </p>
             </div>
-            <h1 className="text-[56px] font-bold">Safety is our priority</h1>
-            <p className="text-[18px] w-[85%] font-light">
+            <h1 className="text-3xl md:text-[56px] font-bold">
+              Safety is our priority
+            </h1>
+            <p className="text-base md:text-[18px] w-full md:w-[85%] font-light">
               At Aaronic Energy Limited, safety isn't just a priority. It is a
               core value as we adhere to stringent safety standards, comply with
               regulations, and continuously strive for improvement. <br /> With
@@ -94,7 +108,11 @@ const Hero = () => {
               and the public.
             </p>
           </div>
-          <img src={HeroImg2} alt="Engineers" />
+          <img
+            src={HeroImg2}
+            alt="Engineers"
+            className="h-full md:h-auto w-full"
+          />
         </SwiperSlide>
       </Swiper>
     </div>
