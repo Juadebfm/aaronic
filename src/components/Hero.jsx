@@ -37,13 +37,13 @@ const Hero = () => {
       >
         <SwiperSlide className="relative">
           <div className="absolute left-0 top-1/2 transform -translate-y-1/2 px-[35px] md:px-28 w-full md:w-[45%]">
-            <div className="flex items-center bg-myYellow/70 text-white py-3 px-6 w-full md:w-max">
+            <div className="flex items-center bg-myYellow/70 text-white py-3 px-6 w-full md:w-max mb-5">
               <img src={SettingsIcon} alt="Settings" className="mr-2" />
               <p className="drop-shadow-sm font-light text-sm md:text-[18px] w-full md:w-auto">
                 We Provide Electric Services For Industrial Project
               </p>
             </div>
-            <h1 className="text-3xl md:text-[56px] font-bold">
+            <h1 className="text-3xl md:text-[56px] font-bold mb-5">
               Safety is our priority
             </h1>
             <p className="text-base md:text-[18px] w-full md:w-[85%] font-light">
@@ -64,13 +64,13 @@ const Hero = () => {
 
         <SwiperSlide>
           <div className="absolute right-0 top-1/2 transform -translate-y-1/2 pr-[35px] md:pr-28 pl-[35px] md:pl-0 w-full md:w-[45%]">
-            <div className="flex items-center bg-myYellow/70 text-white py-3 px-6 w-full md:w-max">
+            <div className="flex items-center bg-myYellow/70 text-white py-3 px-6 w-full md:w-max mb-5">
               <img src={SettingsIcon} alt="Settings" className="mr-2" />
               <p className="drop-shadow-sm font-light text-sm md:text-[18px] w-full md:w-auto">
                 We Provide Electric Services For Industrial Project
               </p>
             </div>
-            <h1 className="text-3xl md:text-[56px] font-bold">
+            <h1 className="text-3xl md:text-[56px] font-bold mb-5">
               Safety is our priority
             </h1>
             <p className="text-base md:text-[18px] w-full md:w-[85%] font-light">
@@ -90,13 +90,13 @@ const Hero = () => {
         </SwiperSlide>
         <SwiperSlide>
           <div className="absolute left-0 top-1/2 transform -translate-y-1/2 px-[35px] md:px-28 w-full md:w-[45%]">
-            <div className="flex items-center bg-myYellow/70 text-white py-3 px-6 w-full md:w-max">
+            <div className="flex items-center bg-myYellow/70 text-white py-3 px-6 w-full md:w-max mb-5">
               <img src={SettingsIcon} alt="Settings" className="mr-2" />
               <p className="drop-shadow-sm font-light text-sm md:text-[18px] w-full md:w-auto">
                 We Provide Electric Services For Industrial Project
               </p>
             </div>
-            <h1 className="text-3xl md:text-[56px] font-bold">
+            <h1 className="text-3xl md:text-[56px] font-bold mb-5">
               Safety is our priority
             </h1>
             <p className="text-base md:text-[18px] w-full md:w-[85%] font-light">
