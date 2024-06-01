@@ -43,7 +43,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`px-[30px] md:px-28 py-7 md:py-10 flex items-center justify-between fixed top-0 z-50 w-full bg-white ${
+      className={`px-[30px] md:px-20 lg:px-28 py-7 lg:py-10 flex items-center justify-between fixed top-0 z-50 w-full bg-white ${
         isScrolled ? "shadow-md shadow-black/30" : ""
       }`}
     >
@@ -52,16 +52,16 @@ const Navbar = () => {
         <img
           src={FullLogo}
           alt="Aaronic Full Logo"
-          className="hidden md:flex w-[180px] h-auto"
+          className="hidden lg:flex w-[180px] h-auto"
         />
         <img
           src={FullLogo}
           alt="Aaronic Full Logo"
-          className="block md:hidden w-[130px] h-auto"
+          className="block lg:hidden w-[130px] h-auto"
         />
       </div>
       {/* NavItems for larger screens */}
-      <ul className="hidden md:flex items-center justify-between gap-8 font-semibold">
+      <ul className="hidden lg:flex items-center justify-between gap-8 font-semibold">
         <li>
           <Link
             to="/"
@@ -114,7 +114,7 @@ const Navbar = () => {
         </li>
       </ul>
       {/* NavBtns for larger screens */}
-      <div className="hidden md:flex gap-4">
+      <div className="hidden lg:flex gap-4">
         <Link to="/contact">
           <Button
             btnText="Contact Us"
@@ -130,13 +130,13 @@ const Navbar = () => {
       {/* Menu icon for smaller screens */}
       <img
         src={isMobileMenuOpen ? CloseIcon : MenuIcon}
-        className="cursor-pointer block md:hidden h-[45px] w-[45px]"
+        className="cursor-pointer block lg:hidden h-[45px] w-[45px]"
         onClick={toggleMobileMenu}
         aria-label="Toggle menu"
       />
       {/* Mobile nav items */}
       {isMobileMenuOpen && (
-        <ul className="absolute top-full left-0 w-full bg-white flex flex-col items-center gap-10 py-16 text-[19px] font-semibold md:hidden h-[65vh]">
+        <ul className="absolute top-full left-0 w-full bg-white flex flex-col items-center gap-10 py-16 text-[19px] font-semibold lg:hidden h-[65vh]">
           <li>
             <Link
               to="/"

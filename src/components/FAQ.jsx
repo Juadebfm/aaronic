@@ -20,7 +20,7 @@ const FAQItem = ({ question, answer, isOpen, onClick }) => {
       <div className={`faq-answer ${isOpen ? "open" : "closed"}`}>
         <div className="faq-answer-content">
           <p
-            className="text-base md:text-[18px] font-light"
+            className="text-base lg:text-[18px] font-light"
             dangerouslySetInnerHTML={formatAnswer(answer)}
           ></p>
         </div>
@@ -89,11 +89,11 @@ const FAQ = () => {
   };
 
   return (
-    <div className="faq px-[15px] md:px-28 py-14 md:py-20">
-      <h2 className="font-bold text-myYellow capitalize text-center text-3xl md:text-[42px]">
+    <div className="faq px-[15px] lg:px-28 py-14 lg:py-20">
+      <h2 className="font-bold text-myYellow capitalize text-center text-3xl lg:text-[42px]">
         Frequently asked questions
       </h2>
-      <p className="font-extralight text-[18px] md:text-[20px] text-center w-full md:w-[80%] mx-auto mt-2 mb-20 md:mb-32">
+      <p className="font-extralight text-[18px] lg:text-[20px] text-center w-full lg:w-[80%] mx-auto mt-2 mb-20 lg:mb-32">
         Welcome to the FAQs section for Aaronic Energy Limited, a leading player
         in the oil trading, shipping, and marine logistics industry. Below,
         you'll find answers to some common questions regarding our expertise,

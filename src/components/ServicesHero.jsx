@@ -9,7 +9,7 @@ import HeroImg1Mobile from "../assets/menu1.png";
 const ServicesHero = () => {
   return (
     <>
-      <div className="hidden md:block relative mt-20">
+      <div className="hidden lg:block relative mt-20">
         <div className="absolute left-0 top-1/2 transform -translate-y-1/2 px-28 w-[55%]">
           <div className="flex items-center bg-myYellow/70 text-black py-3 px-6 w-max">
             <img src={SettingsIcon} alt="Settings" className="mr-2" />
@@ -28,21 +28,21 @@ const ServicesHero = () => {
         />
         <img src={HeroImg2} alt="Engineers" className="h-auto w-full" />
       </div>
-      <div className=" md:hidden relative">
-        <div className="absolute right-0 top-1/2 transform -translate-y-1/2 pr-[15px] md:pr-28 pl-[15px] md:pl-0 w-full md:w-[45%] z-10">
+      <div className=" lg:hidden relative">
+        <div className="absolute right-0 top-1/2 transform -translate-y-1/2 pr-[15px] lg:pr-28 pl-[15px] lg:pl-0 w-full lg:w-[45%] z-10">
           <div className="flex items-center bg-myYellow/70 text-black py-3 px-6 w-max mx-auto">
             <img src={SettingsIcon} alt="Settings" className="mr-2" />
             <p className="drop-shadow-sm font-light text-[18px] text-white">
               Our Services
             </p>
           </div>
-          <h1 className="text-3xl md:text-[52px] font-bold leading-tight mt-5 w-full text-center text-white">
+          <h1 className="text-3xl lg:text-[52px] font-bold leading-tight mt-5 w-full text-center text-white">
             Comprehensive Energy Solutions Tailored for the Modern World
           </h1>
           <img
             src={pyramid}
             alt="pyramid"
-            className="absolute -bottom-[17rem] left-0 w-full md:w-[60%]"
+            className="absolute -bottom-[17rem] md:hidden lg:block left-0 w-full lg:w-[60%]"
           />
         </div>
         <picture className="relative">
@@ -50,10 +50,10 @@ const ServicesHero = () => {
           <img
             src={HeroImg1}
             alt="Engineers"
-            className="h-max md:h-auto w-full"
+            className="h-max lg:h-auto w-full"
           />
 
-          <div className="md:hidden absolute inset-0 bg-black opacity-45"></div>
+          <div className="lg:hidden absolute inset-0 bg-black opacity-45"></div>
         </picture>
       </div>
     </>

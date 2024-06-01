@@ -7,19 +7,19 @@ const Modal = ({ isOpen, onClose }) => {
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 flex items-center justify-center z-50 px-[15px] md:px-0">
+    <div className="fixed inset-0 flex items-center justify-center z-50 px-[15px] lg:px-0">
       <div
         className="fixed inset-0 bg-black opacity-50"
         onClick={onClose}
       ></div>
-      <div className="bg-white rounded-md shadow-lg z-10 w-full md:w-[30%] max-h-[70vh] overflow-y-auto py-14 relative px-[30px] md:px-14">
+      <div className="bg-white rounded-md shadow-lg z-10 w-full lg:w-[30%] max-h-[70vh] overflow-y-auto py-14 relative px-[30px] lg:px-14">
         <button
           onClick={onClose}
-          className="mt-4 p-4 bg-myYellow rounded-full text-black absolute right-5 md:right-10 top-5 hover:shadow-lg duration-150 ease-linear shadow-black"
+          className="mt-4 p-4 bg-myYellow rounded-full text-black absolute right-5 lg:right-10 top-5 hover:shadow-lg duration-150 ease-linear shadow-black"
         >
-          <RiCloseLargeLine className="text-base md:text-2xl text-white" />
+          <RiCloseLargeLine className="text-base lg:text-2xl text-white" />
         </button>
-        <h2 className="text-3xl md:text-[40px] font-bold text-start text-myYellow my-8">
+        <h2 className="text-3xl lg:text-[40px] font-bold text-start text-myYellow my-8">
           Get Started
         </h2>
 
@@ -85,7 +85,9 @@ const Modal = ({ isOpen, onClose }) => {
           <div className="flex items-center justify-center">
             <Button
               btnText={"Submit"}
-              className={"bg-myYellow text-black w-full md:w-[80%] py-4 mx-auto"}
+              className={
+                "bg-myYellow text-black w-full lg:w-[80%] py-4 mx-auto"
+              }
             />
           </div>
         </form>

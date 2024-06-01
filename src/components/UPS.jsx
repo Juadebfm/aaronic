@@ -4,7 +4,7 @@ import OrangeSlant from "../assets/orangeslant.png";
 
 const UPS = () => {
   return (
-    <div className="pr-[25px] md:pr-28 h-full md:h-[80vh] grid grid-cols-1 md:grid-cols-2 place-content-center place-items-center gap-10 md:gap-28 mt-8 md:mt-0 py-16 md:py-0">
+    <div className="pr-[25px] md:pr-20 lg:pr-28 h-full lg:h-[80vh] grid grid-cols-1 lg:grid-cols-2 place-content-center place-items-center gap-10 lg:gap-28 mt-8 lg:mt-0 py-16 lg:py-0">
       <div>
         <img src={UPSimg} alt="Awesome Services" />
       </div>

@@ -9,11 +9,11 @@ import Kemi from "../assets/kemi.png";
 
 const Testimonials = () => {
   return (
-    <div className="px-[15px] md:px-28 py-16 md:py-36 relative">
+    <div className="px-[15px] md:px-20 lg:px-28 py-16 lg:py-36 relative">
       <img
         src={Pattern}
         alt=""
-        className="absolute top-0 left-0 w-auto h-full md:h-[1000px] -z-10"
+        className="absolute top-0 left-0 w-auto h-full lg:h-[1000px] -z-10"
       />
       <div className="flex flex-col items-center justify-center">
         <div className="flex items-center justify-center gap-5">
@@ -28,20 +28,20 @@ const Testimonials = () => {
             <IoStar className="text-myYellow/50" />
           </div>
         </div>
-        <h2 className="capitalize text-3xl md:text-[42px] leading-tight text-center font-bold">
+        <h2 className="capitalize text-3xl lg:text-[42px] leading-tight text-center font-bold">
           these Company trust us.
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 place-items-center place-content-center gap-7 md:gap-16 mt-10">
-          <div className="flex items-center justify-start bg-white gap-3 md:gap-7 py-5 px-6 shadow-md shadow-gray-500 rounded-lg border-l-[4px] border-l-myYellow w-full md:w-[500px] h-auto md:h-[150px]">
+        <div className="grid grid-cols-1 lg:grid-cols-2 place-items-center place-content-center gap-7 lg:gap-16 mt-10">
+          <div className="flex items-center justify-start bg-white gap-3 lg:gap-7 py-5 px-6 shadow-md shadow-gray-500 rounded-lg border-l-[4px] border-l-myYellow w-full lg:w-[500px] h-auto lg:h-[150px]">
             <img src={John} alt="John Davis" className="w-[80px] h-[80px]" />
 
             <div>
-              <div className="flex flex-col md:flex-row items-baseline justify-start gap-0 md:gap-2">
-                <h3 className="font-bold text-myYellow text-base md:text-[24px] capitalize">
+              <div className="flex flex-col lg:flex-row items-baseline justify-start gap-0 lg:gap-2">
+                <h3 className="font-bold text-myYellow text-base lg:text-[24px] capitalize">
                   John Davis
                 </h3>
-                <span className="font-bold text-myYellow text-[24px] hidden md:block">
+                <span className="font-bold text-myYellow text-[24px] hidden lg:block">
                   |
                 </span>
                 <span className="font-extralight text-[12px] text-myYellow">
@@ -60,15 +60,15 @@ const Testimonials = () => {
               </div>
             </div>
           </div>
-          <div className="flex items-center justify-start bg-white gap-3 md:gap-7 py-5 px-6 shadow-md shadow-gray-500 rounded-lg border-l-[4px] border-l-myYellow w-full md:w-[500px] h-auto md:h-[150px]">
+          <div className="flex items-center justify-start bg-white gap-3 lg:gap-7 py-5 px-6 shadow-md shadow-gray-500 rounded-lg border-l-[4px] border-l-myYellow w-full lg:w-[500px] h-auto lg:h-[150px]">
             <img src={Mary} alt="John Davis" className="w-[80px] h-[80px]" />
 
             <div>
-              <div className="flex flex-col md:flex-row items-baseline justify-start gap-0 md:gap-2">
-                <h3 className="font-bold text-myYellow text-base md:text-[24px] capitalize">
+              <div className="flex flex-col lg:flex-row items-baseline justify-start gap-0 lg:gap-2">
+                <h3 className="font-bold text-myYellow text-base lg:text-[24px] capitalize">
                   Kim Mary
                 </h3>
-                <span className="font-bold text-myYellow text-[24px] hidden md:block">
+                <span className="font-bold text-myYellow text-[24px] hidden lg:block">
                   |
                 </span>
                 <span className="font-extralight text-[12px] text-myYellow">
@@ -88,15 +88,15 @@ const Testimonials = () => {
               </div>
             </div>
           </div>
-          <div className="flex items-center justify-start bg-white gap-3 md:gap-7 py-5 px-6 shadow-md shadow-gray-500 rounded-lg border-l-[4px] border-l-myYellow w-full md:w-[500px] h-auto md:h-[150px]">
+          <div className="flex items-center justify-start bg-white gap-3 lg:gap-7 py-5 px-6 shadow-md shadow-gray-500 rounded-lg border-l-[4px] border-l-myYellow w-full lg:w-[500px] h-auto lg:h-[150px]">
             <img src={Mary} alt="John Davis" className="w-[80px] h-[80px]" />
 
             <div>
-              <div className="flex flex-col md:flex-row items-baseline justify-start gap-0 md:gap-2">
-                <h3 className="font-bold text-myYellow text-base md:text-[24px] capitalize">
+              <div className="flex flex-col lg:flex-row items-baseline justify-start gap-0 lg:gap-2">
+                <h3 className="font-bold text-myYellow text-base lg:text-[24px] capitalize">
                   Dare Onajimi
                 </h3>
-                <span className="font-bold text-myYellow text-[24px] hidden md:block">
+                <span className="font-bold text-myYellow text-[24px] hidden lg:block">
                   |
                 </span>
                 <span className="font-extralight text-[12px] text-myYellow">
@@ -116,15 +116,15 @@ const Testimonials = () => {
               </div>
             </div>
           </div>
-          <div className="flex items-center justify-start bg-white gap-3 md:gap-7 py-5 px-6 shadow-md shadow-gray-500 rounded-lg border-l-[4px] border-l-myYellow w-full md:w-[500px] h-auto md:h-[150px]">
+          <div className="flex items-center justify-start bg-white gap-3 lg:gap-7 py-5 px-6 shadow-md shadow-gray-500 rounded-lg border-l-[4px] border-l-myYellow w-full lg:w-[500px] h-auto lg:h-[150px]">
             <img src={Liyas} alt="John Davis" className="w-[80px] h-[80px]" />
 
             <div>
-              <div className="flex flex-col md:flex-row items-baseline justify-start gap-0 md:gap-2">
-                <h3 className="font-bold text-myYellow text-base md:text-[24px] capitalize">
+              <div className="flex flex-col lg:flex-row items-baseline justify-start gap-0 lg:gap-2">
+                <h3 className="font-bold text-myYellow text-base lg:text-[24px] capitalize">
                   Liyas Aleshin
                 </h3>
-                <span className="font-bold text-myYellow text-[24px] hidden md:block">
+                <span className="font-bold text-myYellow text-[24px] hidden lg:block">
                   |
                 </span>
                 <span className="font-extralight text-[12px] text-myYellow">
@@ -144,15 +144,15 @@ const Testimonials = () => {
               </div>
             </div>
           </div>
-          <div className="flex items-center justify-start bg-white gap-3 md:gap-7 py-5 px-6 shadow-md shadow-gray-500 rounded-lg border-l-[4px] border-l-myYellow w-full md:w-[500px] h-auto md:h-[150px]">
+          <div className="flex items-center justify-start bg-white gap-3 lg:gap-7 py-5 px-6 shadow-md shadow-gray-500 rounded-lg border-l-[4px] border-l-myYellow w-full lg:w-[500px] h-auto lg:h-[150px]">
             <img src={Aishat} alt="John Davis" className="w-[80px] h-[80px]" />
 
             <div>
-              <div className="flex flex-col md:flex-row items-baseline justify-start gap-0 md:gap-2">
-                <h3 className="font-bold text-myYellow text-base md:text-[24px] capitalize">
+              <div className="flex flex-col lg:flex-row items-baseline justify-start gap-0 lg:gap-2">
+                <h3 className="font-bold text-myYellow text-base lg:text-[24px] capitalize">
                   Aishat Kamar
                 </h3>
-                <span className="font-bold text-myYellow text-[24px] hidden md:block">
+                <span className="font-bold text-myYellow text-[24px] hidden lg:block">
                   |
                 </span>
                 <span className="font-extralight text-[12px] text-myYellow">
@@ -172,15 +172,15 @@ const Testimonials = () => {
               </div>
             </div>
           </div>
-          <div className="flex items-center justify-start bg-white gap-3 md:gap-7 py-5 px-6 shadow-md shadow-gray-500 rounded-lg border-l-[4px] border-l-myYellow w-full md:w-[500px] h-auto md:h-[150px]">
+          <div className="flex items-center justify-start bg-white gap-3 lg:gap-7 py-5 px-6 shadow-md shadow-gray-500 rounded-lg border-l-[4px] border-l-myYellow w-full lg:w-[500px] h-auto lg:h-[150px]">
             <img src={Kemi} alt="John Davis" className="w-[80px] h-[80px]" />
 
             <div>
-              <div className="flex flex-col md:flex-row items-baseline justify-start gap-0 md:gap-2">
-                <h3 className="font-bold text-myYellow text-base md:text-[24px] capitalize">
+              <div className="flex flex-col lg:flex-row items-baseline justify-start gap-0 lg:gap-2">
+                <h3 className="font-bold text-myYellow text-base lg:text-[24px] capitalize">
                   Kemi Bakare
                 </h3>
-                <span className="font-bold text-myYellow text-[24px] hidden md:block">
+                <span className="font-bold text-myYellow text-[24px] hidden lg:block">
                   |
                 </span>
                 <span className="font-extralight text-[12px] text-myYellow">

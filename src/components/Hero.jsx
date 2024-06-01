@@ -41,20 +41,20 @@ const Hero = () => {
           disableOnInteraction: false,
         }}
         modules={[Autoplay, Pagination, Navigation]}
-        className="mySwiper h-max md:h-screen"
+        className="mySwiper h-max lg:h-screen"
       >
         <SwiperSlide className="relative">
-          <div className="absolute left-0 top-1/2 transform -translate-y-1/2 px-[15px] md:px-28 w-full md:w-[45%] z-10">
-            <div className="hidden md:flex items-center bg-myYellow/70 text-white py-3 px-6 w-full md:w-max mb-5">
+          <div className="absolute left-0 top-1/2 transform -translate-y-1/2 px-[15px] md:px-20 lg:px-28 w-full lg:w-[45%] z-10">
+            <div className="hidden lg:flex items-center bg-myYellow/70 text-white py-3 px-6 w-full lg:w-max mb-5">
               <img src={SettingsIcon} alt="Settings" className="mr-2" />
-              <p className="drop-shadow-sm font-light text-sm md:text-[18px] w-full md:w-auto">
+              <p className="drop-shadow-sm font-light text-sm lg:text-[18px] w-full lg:w-auto">
                 We Provide Electric Services For Industrial Project
               </p>
             </div>
-            <h1 className="text-4xl md:text-[56px] capitalize font-bold mb-5 text-white md:text-black text-center md:text-start">
+            <h1 className="text-4xl lg:text-[56px] capitalize font-bold mb-5 text-white lg:text-black text-center lg:text-start">
               Safety is our priority
             </h1>
-            <p className="text-[18px] md:text-[18px] w-full md:w-[85%] font-light text-white md:text-black text-center md:text-start px-[10px] md:px-0">
+            <p className="text-[18px] lg:text-[18px] w-full lg:w-[85%] font-light text-white lg:text-black text-center lg:text-start px-[10px] lg:px-0">
               At Aaronic Energy Limited, safety isn't just a priority. It is a
               core value as we adhere to stringent safety standards and comply
               with regulations, and continuously strive for improvement. <br />{" "}
@@ -66,7 +66,7 @@ const Hero = () => {
             <Button
               onClick={openModal}
               btnText="Get Started"
-              className="text-black md:hidden rounded-md w-full mx-auto px-8 py-4 bg-myYellow mt-10"
+              className="text-black lg:hidden rounded-md w-full md:w-[50%] lg:w-full flex items-center justify-center mx-auto px-8 py-4 bg-myYellow mt-10"
             />
           </div>
           <picture className="relative">
@@ -74,24 +74,24 @@ const Hero = () => {
             <img
               src={HeroImg3}
               alt="Engineers"
-              className="h-full md:h-auto w-full"
+              className="h-full lg:h-auto w-full"
             />
-            <div className="md:hidden absolute inset-0 bg-black opacity-45"></div>
+            <div className="lg:hidden absolute inset-0 bg-black opacity-45"></div>
           </picture>
         </SwiperSlide>
 
         <SwiperSlide className="relative">
-          <div className="absolute right-0 top-1/2 transform -translate-y-1/2 pr-[15px] md:pr-28 pl-[15px] md:pl-0 w-full md:w-[45%] z-10">
-            <div className="hidden md:flex items-center bg-myYellow/70 text-white py-3 px-6 w-full md:w-max mb-5">
+          <div className="absolute right-0 top-1/2 transform -translate-y-1/2 pr-[15px] md:pl-20 md:pr-20 lg:pr-28 pl-[15px] lg:pl-0 w-full lg:w-[45%] z-10">
+            <div className="hidden lg:flex items-center bg-myYellow/70 text-white py-3 px-6 w-full lg:w-max mb-5">
               <img src={SettingsIcon} alt="Settings" className="mr-2" />
-              <p className="drop-shadow-sm font-light text-sm md:text-[18px] w-full md:w-auto">
+              <p className="drop-shadow-sm font-light text-sm lg:text-[18px] w-full lg:w-auto">
                 We Provide Electric Services For Industrial Project
               </p>
             </div>
-            <h1 className="text-4xl md:text-[56px] capitalize font-bold mb-5 text-white md:text-black text-center md:text-start">
+            <h1 className="text-4xl lg:text-[56px] capitalize font-bold mb-5 text-white lg:text-black text-center lg:text-start">
               Safety is our priority
             </h1>
-            <p className="text-[18px] md:text-[18px] w-full md:w-[85%] font-light text-white md:text-black text-center md:text-start px-[10px] md:px-0">
+            <p className="text-[18px] lg:text-[18px] w-full lg:w-[85%] font-light text-white lg:text-black text-center lg:text-start px-[10px] lg:px-0">
               At Aaronic Energy Limited, safety isn't just a priority. It is a
               core value as we adhere to stringent safety standards and comply
               with regulations, and continuously strive for improvement. <br />{" "}
@@ -102,7 +102,7 @@ const Hero = () => {
             <Button
               onClick={openModal}
               btnText="Get Started"
-              className="text-black md:hidden rounded-md w-full mx-auto px-8 py-4 bg-myYellow mt-10"
+              className="text-black lg:hidden rounded-md w-full md:w-[50%] lg:w-full flex items-center justify-center mx-auto px-8 py-4 bg-myYellow mt-10"
             />
           </div>
           <picture className="relative">
@@ -110,24 +110,24 @@ const Hero = () => {
             <img
               src={HeroImg1}
               alt="Engineers"
-              className="h-full md:h-auto w-full"
+              className="h-full lg:h-auto w-full"
             />
-            <div className="md:hidden absolute inset-0 bg-black opacity-45"></div>
+            <div className="lg:hidden absolute inset-0 bg-black opacity-45"></div>
           </picture>
         </SwiperSlide>
 
         <SwiperSlide className="relative">
-          <div className="absolute left-0 top-1/2 transform -translate-y-1/2 px-[15px] md:px-28 w-full md:w-[45%] z-10">
-            <div className="hidden md:flex items-center bg-myYellow/70 text-white py-3 px-6 w-full md:w-max mb-5">
+          <div className="absolute left-0 top-1/2 transform -translate-y-1/2 px-[15px] md:px-20 lg:px-28 w-full lg:w-[45%] z-10">
+            <div className="hidden lg:flex items-center bg-myYellow/70 text-white py-3 px-6 w-full lg:w-max mb-5">
               <img src={SettingsIcon} alt="Settings" className="mr-2" />
-              <p className="drop-shadow-sm font-light text-sm md:text-[18px] w-full md:w-auto">
+              <p className="drop-shadow-sm font-light text-sm lg:text-[18px] w-full lg:w-auto">
                 We Provide Electric Services For Industrial Project
               </p>
             </div>
-            <h1 className="text-4xl md:text-[56px] capitalize font-bold mb-5 text-white md:text-black text-center md:text-start">
+            <h1 className="text-4xl lg:text-[56px] capitalize font-bold mb-5 text-white lg:text-black text-center lg:text-start">
               Safety is our priority
             </h1>
-            <p className="text-[18px] md:text-[18px] w-full md:w-[85%] font-light text-white md:text-black text-center md:text-start px-[10px] md:px-0">
+            <p className="text-[18px] lg:text-[18px] w-full lg:w-[85%] font-light text-white lg:text-black text-center lg:text-start px-[10px] lg:px-0">
               At Aaronic Energy Limited, safety isn't just a priority. It is a
               core value as we adhere to stringent safety standards and comply
               with regulations, and continuously strive for improvement. <br />{" "}
@@ -138,7 +138,7 @@ const Hero = () => {
             <Button
               onClick={openModal}
               btnText="Get Started"
-              className="text-black md:hidden rounded-md w-full mx-auto px-8 py-4 bg-myYellow mt-10"
+              className="text-black lg:hidden rounded-md w-full md:w-[50%] lg:w-full flex items-center justify-center mx-auto px-8 py-4 bg-myYellow mt-10"
             />
           </div>
           <picture className="relative">
@@ -146,9 +146,9 @@ const Hero = () => {
             <img
               src={HeroImg2}
               alt="Engineers"
-              className="h-full md:h-auto w-full"
+              className="h-full lg:h-auto w-full"
             />
-            <div className="md:hidden absolute inset-0 bg-black opacity-45"></div>
+            <div className="lg:hidden absolute inset-0 bg-black opacity-45"></div>
           </picture>
         </SwiperSlide>
         <Modal isOpen={isOpen} onClose={closeModal}>

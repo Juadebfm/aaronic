@@ -10,9 +10,9 @@ import { TfiEnvelope } from "react-icons/tfi";
 
 const ContactComp = () => {
   return (
-    <div className="px-[25px] md:px-28 grid grid-cols-1 md:grid-cols-2 justify-start py-20 mt-16 md:mt-0">
+    <div className="px-[25px] md:px-20 lg:px-28 grid grid-cols-1 lg:grid-cols-2 justify-start py-20 mt-16 lg:mt-0">
       <div className="flex flex-col items-start justify-center w-full">
-        <h2 className="text-3xl md:text-[40px] text-myYellow font-bold mt-1">
+        <h2 className="text-3xl lg:text-[40px] text-myYellow font-bold mt-1">
           Reach Out to Us
         </h2>
         <ul className="text-base flex flex-col items-start justify-start space-y-5 mt-8">
@@ -73,7 +73,7 @@ const ContactComp = () => {
           </li>
         </ul>
       </div>
-      <div className="mt-5 md:mt-0">
+      <div className="mt-5 lg:mt-0">
         <img src={contactcomp} alt="World Wide 24/7 support" />
       </div>
     </div>

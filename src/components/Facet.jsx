@@ -4,8 +4,8 @@ import { IoArrowForwardCircle } from "react-icons/io5";
 
 const Facet = () => {
   return (
-    <div className="relative hidden md:block h-[100vh] md:h-[85vh]">
-      <div className="absolute grid grid-cols-1 md:grid-cols-3 left-0 top-1/2 transform -translate-y-1/2 w-full h-full">
+    <div className="relative hidden lg:block h-[100vh] lg:h-[85vh]">
+      <div className="absolute grid grid-cols-1 lg:grid-cols-3 left-0 top-1/2 transform -translate-y-1/2 w-full h-full">
         <div className="h-full w-full px-[25px] py-32 cursor-pointer flex flex-col items-start justify-end border transition-all duration-500 ease-in-out hover:bg-white hover:bg-opacity-30 hover:backdrop-blur-lg hover:border-l-black hover:border-r-black group">
           <span className="hollow font-bold text-[28px]">01</span>
           <h3 className="text-[40px] font-bold font-lato mt-1 transition-all duration-500 ease-in-out group-hover:text-myYellow">

@@ -4,7 +4,7 @@ import WomanElec from "../assets/woman_electricity_pathway.png";
 
 const CoreValues = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 place-items-center place-content-center p-[25px] md:p-28">
+    <div className="grid grid-cols-1 lg:grid-cols-2 place-items-center place-content-center p-[25px] md:px-20 lg:p-28">
       <div>
         <div className="flex items-center text-black py-3 pr-6 mt-10 w-max">
           <img src={Settingsyellow} alt="Settings" className="mr-2" />
@@ -15,7 +15,7 @@ const CoreValues = () => {
         <h2 className="text-[40px] text-myYellow font-bold mt-1">
           Core Values
         </h2>
-        <p className="text-[18px] w-full md:w-[85%] font-light">
+        <p className="text-[18px] w-full lg:w-[85%] font-light">
           Our business transactions are based on excellence as we are committed
           to the highest standards of professionalism. We believe in
           transparency as the foundation of our ambition to create lasting
@@ -27,7 +27,11 @@ const CoreValues = () => {
         </p>
       </div>
       <div>
-        <img src={WomanElec} alt="Workers " className="mt-20 md:mt-0" />
+        <img
+          src={WomanElec}
+          alt="Workers "
+          className="mt-20 lg:mt-0 md:px-10 lg:px-0"
+        />
       </div>
     </div>
   );
