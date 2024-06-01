@@ -49,16 +49,20 @@ const Navbar = () => {
     >
       {/* Logo */}
       <div className="w-auto h-auto">
-        <img
-          src={FullLogo}
-          alt="Aaronic Full Logo"
-          className="hidden lg:flex w-[180px] h-auto"
-        />
-        <img
-          src={FullLogo}
-          alt="Aaronic Full Logo"
-          className="block lg:hidden w-[130px] h-auto"
-        />
+        <Link to="/">
+          <img
+            src={FullLogo}
+            alt="Aaronic Full Logo"
+            className="hidden lg:flex w-[180px] h-auto"
+          />
+        </Link>
+        <Link to="/">
+          <img
+            src={FullLogo}
+            alt="Aaronic Full Logo"
+            className="block lg:hidden w-[130px] h-auto"
+          />
+        </Link>
       </div>
       {/* NavItems for larger screens */}
       <ul className="hidden lg:flex items-center justify-between gap-8 font-semibold">
