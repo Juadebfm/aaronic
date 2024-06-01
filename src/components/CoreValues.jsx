@@ -4,7 +4,7 @@ import WomanElec from "../assets/woman_electricity_pathway.png";
 
 const CoreValues = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 place-items-center place-content-center p-[35px] md:p-28">
+    <div className="grid grid-cols-1 md:grid-cols-2 place-items-center place-content-center p-[25px] md:p-28">
       <div>
         <div className="flex items-center text-black py-3 pr-6 mt-10 w-max">
           <img src={Settingsyellow} alt="Settings" className="mr-2" />
@@ -27,7 +27,7 @@ const CoreValues = () => {
         </p>
       </div>
       <div>
-        <img src={WomanElec} alt="Workers " className="mt-20 md:mt-0"/>
+        <img src={WomanElec} alt="Workers " className="mt-20 md:mt-0" />
       </div>
     </div>
   );

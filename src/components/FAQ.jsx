@@ -93,7 +93,7 @@ const FAQ = () => {
       <h2 className="font-bold text-myYellow capitalize text-center text-3xl md:text-[42px]">
         Frequently asked questions
       </h2>
-      <p className="font-extralight text-[20px] text-center w-full md:w-[80%] mx-auto mt-2 mb-32">
+      <p className="font-extralight text-[18px] md:text-[20px] text-center w-full md:w-[80%] mx-auto mt-2 mb-32">
         Welcome to the FAQs section for Aaronic Energy Limited, a leading player
         in the oil trading, shipping, and marine logistics industry. Below,
         you'll find answers to some common questions regarding our expertise,

@@ -6,13 +6,13 @@ import { Link, useLocation } from "react-router-dom";
 import Button from "./Button";
 import Modal from "./Modal";
 import useModal from "../utils/useModal";
-import { FiMenu } from "react-icons/fi";
+import MenuIcon from "../assets/menu.png";
 
 const Navbar = () => {
   const { isOpen, openModal, closeModal } = useModal();
   const location = useLocation();
   return (
-    <nav className="px-[35px] md:px-28 py-7 md:py-10 flex items-center justify-between fixed top-0 z-50 w-full bg-white">
+    <nav className="px-[30px] md:px-28 py-7 md:py-10 flex items-center justify-between fixed top-0 z-50 w-full bg-white">
       {/* Logo */}
       <div className="w-auto h-auto">
         <img
@@ -21,9 +21,9 @@ const Navbar = () => {
           className="hidden md:flex w-[180px] h-auto"
         />
         <img
-          src={SmallLogo}
+          src={FullLogo}
           alt="Aaronic"
-          className="block md:hidden w-[35px] h-[35px]"
+          className="block md:hidden w-[130px] h-auto"
         />
       </div>
       {/* NavItems */}
@@ -93,7 +93,10 @@ const Navbar = () => {
           className="bg-myYellow text-black hover:shadow-md shadow-black"
         />
       </div>
-      <FiMenu size={35} className="cursor-pointer block md:hidden" />
+      <img
+        src={MenuIcon}
+        className="cursor-pointer block md:hidden h-[45px] w-[45px]"
+      />
 
       <Modal isOpen={isOpen} onClose={closeModal}>
         <h2 className="text-2xl font-bold">Modal Content</h2>
