@@ -9,15 +9,15 @@ import SettingsIcon from "../assets/settings-icon.svg";
 
 const Different = () => {
   return (
-    <div className="relative my-10 md:my-20 h-full hidden md:block">
+    <div className="relative my-10 md:my-20 h-max md:h-full">
       <img
         src={DifferentBg}
         alt="Background"
-        className="w-full h-screen md:h-auto"
+        className="w-full h-full"
       />
-      <div className="absolute inset-0 bg-black/60"></div>
-      <div className="absolute inset-0 flex flex-col items-center justify-center text-white">
-        <div className="flex items-center bg-myYellow/70 text-white py-3 px-6 mt-10 w-max">
+      <div className="static md:absolute inset-0 bg-black/60"></div>
+      <div className="static md:absolute inset-0 flex flex-col items-center justify-center text-white">
+        <div className="hidden md:flex items-center bg-myYellow/70 text-white py-3 px-6 mt-10 w-max">
           <img src={SettingsIcon} alt="Settings" className="mr-2" />
           <p className="drop-shadow-sm normal-case font-light text-sm md:text-[18px] w-full md:w-auto">
             Core Features & Quality Management
@@ -26,7 +26,7 @@ const Different = () => {
         <h2 className="text-[40px] text-white font-bold mt-5">
           What Makes Us Different
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-4 place-items-center place-content-center gap-10 px-[25px] md:px-28 mt-10">
+        <div className="grid grid-cols-1 md:grid-cols-4 place-items-center place-content-center gap-10 px-[25px] md:px-28 mt-0 md:mt-10">
           <div className="flex flex-col items-center">
             <img src={Pointing} alt="Lady Pointing" className="mb-4" />
             <div
