@@ -33,6 +33,14 @@ const Navbar = () => {
     };
   }, []);
 
+  useEffect(() => {
+    if (isMobileMenuOpen) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "auto";
+    }
+  }, [isMobileMenuOpen]);
+
   return (
     <nav
       className={`px-[30px] md:px-28 py-7 md:py-10 flex items-center justify-between fixed top-0 z-50 w-full bg-white ${

@@ -33,7 +33,7 @@ const Testimonials = () => {
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 place-items-center place-content-center gap-7 md:gap-16 mt-10">
-          <div className="flex items-center justify-start bg-white gap-7 py-5 px-6 shadow-md shadow-gray-500 rounded-lg border-l-[4px] border-l-myYellow w-full md:w-[500px] h-auto md:h-[150px]">
+          <div className="flex items-center justify-start bg-white gap-3 md:gap-7 py-5 px-6 shadow-md shadow-gray-500 rounded-lg border-l-[4px] border-l-myYellow w-full md:w-[500px] h-auto md:h-[150px]">
             <img src={John} alt="John Davis" className="w-[80px] h-[80px]" />
 
             <div>
@@ -60,7 +60,7 @@ const Testimonials = () => {
               </div>
             </div>
           </div>
-          <div className="flex items-center justify-start bg-white gap-7 py-5 px-6 shadow-md shadow-gray-500 rounded-lg border-l-[4px] border-l-myYellow w-full md:w-[500px] h-auto md:h-[150px]">
+          <div className="flex items-center justify-start bg-white gap-3 md:gap-7 py-5 px-6 shadow-md shadow-gray-500 rounded-lg border-l-[4px] border-l-myYellow w-full md:w-[500px] h-auto md:h-[150px]">
             <img src={Mary} alt="John Davis" className="w-[80px] h-[80px]" />
 
             <div>
@@ -88,7 +88,7 @@ const Testimonials = () => {
               </div>
             </div>
           </div>
-          <div className="flex items-center justify-start bg-white gap-7 py-5 px-6 shadow-md shadow-gray-500 rounded-lg border-l-[4px] border-l-myYellow w-full md:w-[500px] h-auto md:h-[150px]">
+          <div className="flex items-center justify-start bg-white gap-3 md:gap-7 py-5 px-6 shadow-md shadow-gray-500 rounded-lg border-l-[4px] border-l-myYellow w-full md:w-[500px] h-auto md:h-[150px]">
             <img src={Mary} alt="John Davis" className="w-[80px] h-[80px]" />
 
             <div>
@@ -116,7 +116,7 @@ const Testimonials = () => {
               </div>
             </div>
           </div>
-          <div className="flex items-center justify-start bg-white gap-7 py-5 px-6 shadow-md shadow-gray-500 rounded-lg border-l-[4px] border-l-myYellow w-full md:w-[500px] h-auto md:h-[150px]">
+          <div className="flex items-center justify-start bg-white gap-3 md:gap-7 py-5 px-6 shadow-md shadow-gray-500 rounded-lg border-l-[4px] border-l-myYellow w-full md:w-[500px] h-auto md:h-[150px]">
             <img src={Liyas} alt="John Davis" className="w-[80px] h-[80px]" />
 
             <div>
@@ -144,7 +144,7 @@ const Testimonials = () => {
               </div>
             </div>
           </div>
-          <div className="flex items-center justify-start bg-white gap-7 py-5 px-6 shadow-md shadow-gray-500 rounded-lg border-l-[4px] border-l-myYellow w-full md:w-[500px] h-auto md:h-[150px]">
+          <div className="flex items-center justify-start bg-white gap-3 md:gap-7 py-5 px-6 shadow-md shadow-gray-500 rounded-lg border-l-[4px] border-l-myYellow w-full md:w-[500px] h-auto md:h-[150px]">
             <img src={Aishat} alt="John Davis" className="w-[80px] h-[80px]" />
 
             <div>
@@ -172,7 +172,7 @@ const Testimonials = () => {
               </div>
             </div>
           </div>
-          <div className="flex items-center justify-start bg-white gap-7 py-5 px-6 shadow-md shadow-gray-500 rounded-lg border-l-[4px] border-l-myYellow w-full md:w-[500px] h-auto md:h-[150px]">
+          <div className="flex items-center justify-start bg-white gap-3 md:gap-7 py-5 px-6 shadow-md shadow-gray-500 rounded-lg border-l-[4px] border-l-myYellow w-full md:w-[500px] h-auto md:h-[150px]">
             <img src={Kemi} alt="John Davis" className="w-[80px] h-[80px]" />
 
             <div>

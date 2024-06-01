@@ -5,24 +5,26 @@ import AboutHeroImg from "../assets/aboutUsHero.png";
 
 const AboutHero = () => {
   return (
-    <div className="mt-[10rem] h-max relative">
+    <div className="mt-[7.5rem] md:mt-[10rem] h-max relative">
       <img
         src={spiral}
         alt="spiral background"
-        className="absolute top-0 right-0 -z-10"
+        className="absolute top-0 right-0 -z-10 h-full"
       />
-      <div className="px-28 pt-8">
+      <div className="md:hidden absolute inset-0 bg-black/45 opacity-45 -z-10"></div>
+
+      <div className="px-[25px] md:px-28 pt-8">
         <div className="flex flex-col items-center justify-center space-y-3 text-center">
           <div className="flex items-center justify-center bg-myYellow/70 text-black py-3 px-6 w-max">
             <img src={SettingsIcon} alt="Settings" className="mr-2" />
-            <p className="drop-shadow-sm font-light text-[18px]">
+            <p className="drop-shadow-sm font-light text-base md:text-[18px]">
               Welcome to Our Company
             </p>
           </div>
-          <h1 className="text-[56px] font-bold w-[40%] mx-auto leading-tight">
+          <h1 className="text-4xl md:text-[56px] font-bold w-full md:w-[40%] mx-auto leading-tight">
             Build Your Organization With Our Technics
           </h1>
-          <p className="text-[18px] w-[45%] font-light">
+          <p className="text-[18px] w-full md:w-[45%] font-light">
             With documented policies and a robust Safety Management System, we
             are committed to ensuring the well-being of our employees,
             customers, and the public.

@@ -18,7 +18,7 @@ const CTA = () => {
       <Button
         btnText={"Get Started"}
         className={
-          "text-black md:hidden rounded-md w-full mx-auto px-8 py-4 bg-white mt-10"
+          "text-black rounded-md w-full md:w-[30%] mx-auto px-8 py-4 bg-white mt-10"
         }
         onClick={openModal}
       />
