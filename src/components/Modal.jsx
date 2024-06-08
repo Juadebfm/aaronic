@@ -81,9 +81,12 @@ const Modal = ({ isOpen, onClose }) => {
         >
           <RiCloseLargeLine className="text-base lg:text-2xl text-white" />
         </button>
-        <h2 className="text-3xl lg:text-[40px] font-bold text-start text-myYellow my-8">
-          Get Started
-        </h2>
+
+        {!formSubmitted && (
+          <h2 className="text-3xl lg:text-[40px] font-bold text-start text-myYellow my-8">
+            Get Started
+          </h2>
+        )}
 
         {formSubmitted ? (
           <div className="text-center text-lg font-semibold text-green-600">
