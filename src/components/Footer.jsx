@@ -62,8 +62,7 @@ const Footer = () => {
             <span className="text-[18px] font-bold">Resources</span>
             <ul className="flex flex-col items-start justify-start space-y-4">
               <Link>Social Proof</Link>
-              <Link>Contact Us</Link>
-              <Link>Help Center</Link>
+              <Link to="/contact">Contact Us</Link>
               <Link to="/FAQ">FAQs</Link>
             </ul>
           </div>

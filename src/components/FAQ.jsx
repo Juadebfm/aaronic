@@ -70,17 +70,20 @@ const FAQ = () => {
     {
       question:
         "What type of shipping services does Aaronic Energy Limited offer?",
-      answer: "Loading...",
+      answer:
+        "We offer a range of shipping services to meet the diverse needs of our clients such as maritime transportation, chartering services, offshore support services, ship management services. And we aim to provide reliable, efficient, and cost-effective shipping services while prioritizing safety, environmental sustainability, and customer satisfaction.",
     },
     {
       question:
         "What type of vessels does Aaronic Energy Limited utilize for shipping services?",
-      answer: "Loading...",
+      answer:
+        "We utilize diverse fleet of vessels to provide efficient and reliable shipping services tailored to meet the needs of our customers across various industries such as Multipurpose vessels, Roll-on/roll-off (Ro-Ro) vessels, specialized vessels and much more",
     },
     {
       question:
         "What measures does Aaronic Energy Limited take to minimize environmental impact during shipping operations?",
-      answer: "Loading...",
+      answer:
+        "We invest in modern, fuel-efficient vessels and where feasible, we also explore the use of alternative fuels such as LNG (liquefied natural gas) or biofuels, which emit fewer pollutants compared to traditional marine fuels like heavy fuel oil. And we strive to minimize its environmental footprint and contribute to the sustainability of marine ecosystems.",
     },
   ];
 

@@ -6,7 +6,7 @@ import { TfiTwitter } from "react-icons/tfi";
 import { TfiInstagram } from "react-icons/tfi";
 import { TfiLocationPin } from "react-icons/tfi";
 import { TfiLinkedin } from "react-icons/tfi";
-import { TfiEnvelope } from "react-icons/tfi";
+import { CiMail } from "react-icons/ci";
 
 const ContactComp = () => {
   return (
@@ -25,7 +25,7 @@ const ContactComp = () => {
               +(234) 707-337-3241.
             </span>
           </Link>
-          <Link
+          {/* <Link
             to="https://www.twitter.com"
             target="_blank"
             className="flex items-center justify-center gap-5"
@@ -34,7 +34,7 @@ const ContactComp = () => {
             <span className="hover:text-gray-600 duration-150 ease-linear">
               Aaronicenergylimited
             </span>
-          </Link>
+          </Link> */}
           <Link
             to="https://www.instagram.com"
             target="_blank"
@@ -56,13 +56,23 @@ const ContactComp = () => {
             </span>
           </Link>
           <Link
-            to="mailto:"
+            to="mailto:contact@aaronic.com.ng"
             target="_blank"
             className="flex items-center justify-center gap-5"
           >
-            <TfiEnvelope className="text-2xl" />
+            <CiMail className="text-2xl" />
             <span className="hover:text-gray-600 duration-150 ease-linear">
-              support@Omni_X.network | support@omni-X.network
+              contact@aaronic.com.ng
+            </span>
+          </Link>
+          <Link
+            to="mailto:info@aaronic.com.ng"
+            target="_blank"
+            className="flex items-center justify-center gap-5"
+          >
+            <CiMail className="text-2xl" />
+            <span className="hover:text-gray-600 duration-150 ease-linear">
+              info@aaronic.com.ng
             </span>
           </Link>
           <li className="flex items-center justify-center gap-5">

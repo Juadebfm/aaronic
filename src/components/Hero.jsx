@@ -45,16 +45,10 @@ const Hero = () => {
       >
         <SwiperSlide className="relative">
           <div className="absolute left-0 top-1/2 transform -translate-y-1/2 px-[15px] md:px-20 lg:px-28 w-full lg:w-[45%] z-10">
-            <div className="hidden lg:flex items-center bg-myYellow/70 text-white py-3 px-6 w-full lg:w-max mb-5">
-              <img src={SettingsIcon} alt="Settings" className="mr-2" />
-              <p className="drop-shadow-sm font-light text-sm lg:text-[18px] w-full lg:w-auto">
-                We Provide Electric Services For Industrial Project
-              </p>
-            </div>
-            <h1 className="text-4xl lg:text-[56px] capitalize font-bold mb-5 text-white lg:text-black text-center lg:text-start">
+            <h1 className="text-4xl lg:text-[56px] leading-normal capitalize font-bold mb-5 text-white lg:text-black text-center lg:text-start">
               Safety is our priority
             </h1>
-            <p className="text-[18px] lg:text-[18px] w-full lg:w-[85%] font-light text-white lg:text-black text-center lg:text-start px-[10px] lg:px-0">
+            <p className="text-[18px] lg:text-[18px] w-full lg:w-[90%] font-light text-white lg:text-black text-center lg:text-start px-[10px] lg:px-0">
               At Aaronic Energy Limited, safety isn't just a priority. It is a
               core value as we adhere to stringent safety standards and comply
               with regulations, and continuously strive for improvement. <br />{" "}
@@ -82,16 +76,10 @@ const Hero = () => {
 
         <SwiperSlide className="relative">
           <div className="absolute right-0 top-1/2 transform -translate-y-1/2 pr-[15px] md:pl-20 md:pr-20 lg:pr-28 pl-[15px] lg:pl-0 w-full lg:w-[45%] z-10">
-            <div className="hidden lg:flex items-center bg-myYellow/70 text-white py-3 px-6 w-full lg:w-max mb-5">
-              <img src={SettingsIcon} alt="Settings" className="mr-2" />
-              <p className="drop-shadow-sm font-light text-sm lg:text-[18px] w-full lg:w-auto">
-                We Provide Electric Services For Industrial Project
-              </p>
-            </div>
-            <h1 className="text-4xl lg:text-[56px] capitalize font-bold mb-5 text-white lg:text-black text-center lg:text-start">
+            <h1 className="text-4xl lg:text-[56px] capitalize font-bold mb-5 text-white lg:text-black text-center lg:text-start leading-normal">
               Safety is our priority
             </h1>
-            <p className="text-[18px] lg:text-[18px] w-full lg:w-[85%] font-light text-white lg:text-black text-center lg:text-start px-[10px] lg:px-0">
+            <p className="text-[18px] lg:text-[18px] w-full lg:w-[90%] font-light text-white lg:text-black text-center lg:text-start px-[10px] lg:px-0">
               At Aaronic Energy Limited, safety isn't just a priority. It is a
               core value as we adhere to stringent safety standards and comply
               with regulations, and continuously strive for improvement. <br />{" "}
@@ -118,16 +106,10 @@ const Hero = () => {
 
         <SwiperSlide className="relative">
           <div className="absolute left-0 top-1/2 transform -translate-y-1/2 px-[15px] md:px-20 lg:px-28 w-full lg:w-[45%] z-10">
-            <div className="hidden lg:flex items-center bg-myYellow/70 text-white py-3 px-6 w-full lg:w-max mb-5">
-              <img src={SettingsIcon} alt="Settings" className="mr-2" />
-              <p className="drop-shadow-sm font-light text-sm lg:text-[18px] w-full lg:w-auto">
-                We Provide Electric Services For Industrial Project
-              </p>
-            </div>
-            <h1 className="text-4xl lg:text-[56px] capitalize font-bold mb-5 text-white lg:text-black text-center lg:text-start">
+            <h1 className="text-4xl lg:text-[56px] capitalize font-bold mb-5 text-white lg:text-black text-center lg:text-start leading-normal">
               Safety is our priority
             </h1>
-            <p className="text-[18px] lg:text-[18px] w-full lg:w-[85%] font-light text-white lg:text-black text-center lg:text-start px-[10px] lg:px-0">
+            <p className="text-[18px] lg:text-[18px] w-full lg:w-[90%] font-light text-white lg:text-black text-center lg:text-start px-[10px] lg:px-0">
               At Aaronic Energy Limited, safety isn't just a priority. It is a
               core value as we adhere to stringent safety standards and comply
               with regulations, and continuously strive for improvement. <br />{" "}
