@@ -60,7 +60,6 @@ const Footer = () => {
           <div className="space-y-5">
             <span className="text-[18px] font-bold">Resources</span>
             <ul className="flex flex-col items-start justify-start space-y-4">
-              <Link to="/home">Social Proof</Link>
               <Link to="/contact">Contact Us</Link>
               <Link to="/FAQ">FAQs</Link>
             </ul>

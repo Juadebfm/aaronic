@@ -29,7 +29,7 @@ const Testimonials = () => {
           </div>
         </div>
         <h2 className="capitalize text-3xl lg:text-[42px] leading-tight text-center font-bold">
-          these Company trust us.
+          these Companies trust us.
         </h2>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 place-items-center place-content-center gap-7 lg:gap-16 mt-10">

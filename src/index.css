@@ -95,6 +95,7 @@
 }
 
 .faq-answer {
+  line-height: 1.5;
   overflow: hidden;
   max-height: 0;
   transition: max-height 0.3s ease;
@@ -160,6 +161,10 @@ body.modal-open {
 
 /* Custom CSS for dark overlay on small screens */
 @media (max-width: 767px) {
+  .relative .capitalize:hover + .hidden-div {
+    display: none;
+  }
+
   .overlay {
     position: absolute;
     top: 0;
@@ -181,3 +186,8 @@ body.modal-open {
   }
 }
 
+@media (max-width: 1024px) {
+  .relative .capitalize:hover + .hidden-div {
+    display: none;
+  }
+}

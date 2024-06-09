@@ -24,7 +24,7 @@ const Welcome = () => {
             Aaronic Energy Provides a Full Range of Services
           </h2>
         </div>
-        <p className="w-full lg:w-[65%] mt-8 text-[18px] font-light">
+        <p className="w-full lg:w-[75%] mt-8 text-[18px] font-light">
           We successfully cope with tasks of varying complexity, provide
           long-term guarantees and regularly master new technologies. Our
           portfolio includes dozens of successfully completed projects of houses

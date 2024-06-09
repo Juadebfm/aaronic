@@ -20,7 +20,7 @@ const FAQItem = ({ question, answer, isOpen, onClick }) => {
       <div className={`faq-answer ${isOpen ? "open" : "closed"}`}>
         <div className="faq-answer-content">
           <p
-            className="text-base lg:text-[18px] font-light"
+            className="text-base lg:text-[18px] font-light leading-normal"
             dangerouslySetInnerHTML={formatAnswer(answer)}
           ></p>
         </div>

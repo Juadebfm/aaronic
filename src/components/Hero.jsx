@@ -44,7 +44,7 @@ const Hero = () => {
         className="mySwiper h-max lg:h-screen"
       >
         <SwiperSlide className="relative">
-          <div className="absolute left-0 top-1/2 transform -translate-y-1/2 px-[15px] md:px-20 lg:px-28 w-full lg:w-[45%] z-10">
+          <div className="absolute left-0 top-1/2 transform -translate-y-1/2 px-[15px] md:px-20 lg:px-28 w-full lg:w-[55%] z-10">
             <h1 className="text-4xl lg:text-[56px] leading-normal capitalize font-bold mb-5 text-white lg:text-black text-center lg:text-start">
               Safety is our priority
             </h1>
@@ -75,7 +75,7 @@ const Hero = () => {
         </SwiperSlide>
 
         <SwiperSlide className="relative">
-          <div className="absolute right-0 top-1/2 transform -translate-y-1/2 pr-[15px] md:pl-20 md:pr-20 lg:pr-28 pl-[15px] lg:pl-0 w-full lg:w-[45%] z-10">
+          <div className="absolute right-0 top-1/2 transform -translate-y-1/2 pr-[15px] md:pl-20 md:pr-20 lg:pr-28 pl-[15px] lg:pl-0 w-full lg:w-[55%] z-10">
             <h1 className="text-4xl lg:text-[56px] capitalize font-bold mb-5 text-white lg:text-black text-center lg:text-start leading-normal">
               Safety is our priority
             </h1>
@@ -105,7 +105,7 @@ const Hero = () => {
         </SwiperSlide>
 
         <SwiperSlide className="relative">
-          <div className="absolute left-0 top-1/2 transform -translate-y-1/2 px-[15px] md:px-20 lg:px-28 w-full lg:w-[45%] z-10">
+          <div className="absolute left-0 top-1/2 transform -translate-y-1/2 px-[15px] md:px-20 lg:px-28 w-full lg:w-[55%] z-10">
             <h1 className="text-4xl lg:text-[56px] capitalize font-bold mb-5 text-white lg:text-black text-center lg:text-start leading-normal">
               Safety is our priority
             </h1>

@@ -5,7 +5,7 @@ import CTA from "../components/CTA";
 
 const Careers = () => {
   return (
-    <div>
+    <div className="bg-myYellow/20">
       <div className="h-full lg:h-[70vh]">
         <div className="pt-[25px] lg:pt-28 px-[25px] md:px-20 lg:px-28 mt-28 pb-10 lg:pb-0 flex flex-col justify-center items-center w-full">
           <div className="flex items-center bg-myYellow/70 text-white py-3 px-6 w-max">

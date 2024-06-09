@@ -21,10 +21,10 @@ const AboutHero = () => {
               Welcome to Our Company
             </p>
           </div>
-          <h1 className="text-4xl lg:text-[56px] font-bold w-full lg:w-[40%] mx-auto leading-tight">
-            Build Your Organization With Our Technics
+          <h1 className="text-4xl lg:text-[56px] font-bold w-full lg:w-[40%] mx-auto leading-tight capitalize">
+            Build Your Organization With Our Techniques
           </h1>
-          <p className="text-[18px] w-full lg:w-[45%] font-light">
+          <p className="text-[20px] w-full lg:w-[45%] font-light">
             With documented policies and a robust Safety Management System, we
             are committed to ensuring the well-being of our employees,
             customers, and the public.

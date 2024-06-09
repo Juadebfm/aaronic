@@ -13,7 +13,7 @@ const AboutCoreValues = () => {
           </p>
         </div>
         <div>
-          <h2 className="text-3xl lg:text-[40px] text-myYellow font-bold mt-1">
+          <h2 className="text-3xl lg:text-[40px] text-myYellow font-bold mt-2 mb-4">
             Core Values
           </h2>
           <p className="text-[18px] w-full lg:w-[85%] font-light">
