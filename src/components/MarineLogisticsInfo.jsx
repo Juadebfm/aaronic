@@ -2,11 +2,11 @@ import React from "react";
 
 const MarineLogisticsInfo = () => {
   return (
-    <div className="p-28">
-      <div className="grid grid-cols-2 place-items-center place-content-center gap-20">
+    <div className="p-[30px] lg:p-28">
+      <div className="grid grid-cols-1 lg:grid-cols-2 place-items-center place-content-center gap-20">
         <div className="space-y-10">
           <div>
-            <h2 className="text-[40px] text-myYellow font-bold mt-1 mb-8 leading-none">
+            <h2 className="text-[40px] text-myYellow font-bold mt-1 mb-8 leading-tight">
               <span className="block text-black">Marine Logistics</span>
               <span>Overview</span>
             </h2>
@@ -19,7 +19,7 @@ const MarineLogisticsInfo = () => {
             </p>
           </div>
           <div>
-            <h2 className="text-[32px] text-myYellow font-bold mt-1 mb-4 leading-none">
+            <h2 className="text-[32px] text-myYellow font-bold mt-1 mb-4 leading-tight">
               Key Features
             </h2>
             <ul className="pl-7 space-y-6 text-[18px]">
@@ -46,7 +46,7 @@ const MarineLogisticsInfo = () => {
         </div>
         <div className="space-y-10">
           <div>
-            <h2 className="text-[32px] text-myYellow font-bold mt-1 mb-4 leading-none">
+            <h2 className="text-[32px] text-myYellow font-bold mt-1 mb-4 leading-tight">
               Marine Logistics Benefits
             </h2>
             <ul className="pl-7 space-y-6 text-[18px]">
@@ -75,7 +75,7 @@ const MarineLogisticsInfo = () => {
             </ul>
           </div>
           <div>
-            <h2 className="text-[32px] text-myYellow font-bold mt-1 mb-4 leading-none">
+            <h2 className="text-[32px] text-myYellow font-bold mt-1 mb-4 leading-tight">
               Highest Expectations
             </h2>
             <ul className="pl-7 space-y-6 text-[18px]">

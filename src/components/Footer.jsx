@@ -45,7 +45,7 @@ const Footer = () => {
               >
                 Marine Logistics
               </Link>
-              <Link>Sailors Management</Link>
+              <Link to="view_shipping">Sailors Management</Link>
             </ul>
           </div>
           <div className="space-y-5">

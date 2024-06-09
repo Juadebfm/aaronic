@@ -13,15 +13,15 @@ import MarineLogisticsInfo from "../components/MarineLogisticsInfo";
 const MarineLogistics = () => {
   return (
     <div>
-      <div className="relative mt-20">
-        <div className="absolute left-0 top-1/2 transform -translate-y-1/2 px-28 w-[55%]">
-          <div className="flex items-center bg-white/50 text-black py-3 px-6 w-max">
+      <div className="relative mt-20 h-[50vh]">
+        <div className="absolute left-0 top-1/2 transform -translate-y-1/2 px-[30px] lg:px-28 w-full lg:w-[55%]">
+          <div className="hidden lg:flex items-center bg-white/50 text-black py-3 px-6 w-max">
             <img src={SettingsIcon} alt="Settings" className="mr-2" />
             <p className="drop-shadow-sm font-light text-[18px]">
               Our Services
             </p>
           </div>
-          <h1 className="text-[52px] font-bold leading-tight mt-5">
+          <h1 className="text-4xl lg:text-[52px] font-bold leading-tight mt-5">
             Navigating Complexities with Precision Empower Your Maritime
             Operations
           </h1>

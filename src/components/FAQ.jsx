@@ -12,9 +12,9 @@ const FAQItem = ({ question, answer, isOpen, onClick }) => {
       <div className="faq-question" onClick={onClick}>
         <h3>{question}</h3>
         {isOpen ? (
-          <PiMinus className="text-myYellow text-3xl" />
+          <PiMinus className="text-myYellow text-2xl" />
         ) : (
-          <PiPlus className="text-myYellow text-3xl" />
+          <PiPlus className="text-myYellow text-2xl" />
         )}
       </div>
       <div className={`faq-answer ${isOpen ? "open" : "closed"}`}>

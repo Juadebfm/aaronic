@@ -2,15 +2,15 @@ import React from "react";
 
 const ViewShippingInfo = () => {
   return (
-    <div className="p-28">
-      <div className="grid grid-cols-2 place-items-center place-content-center gap-20">
+    <div className="p-[30px] lg:p-28">
+      <div className="grid grid-cols-1 lg:grid-cols-2 place-items-center place-content-center gap-20">
         <div className="space-y-10">
           <div>
             <h2 className="text-[40px] text-myYellow font-bold mt-1 mb-8 leading-none">
               <span className="block text-black">Shipping</span>
               <span>Overview</span>
             </h2>
-            <p className="text-[18px] w-[85%] font-light">
+            <p className="text-[18px] w-full lg:w-[85%] font-light">
               We excel in providing comprehensive shipping solutions in the
               energy sector. With a focus on reliability, efficiency, and
               safety, Aaronic Energy manages the transportation of various oil

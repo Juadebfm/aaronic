@@ -3,11 +3,11 @@ import Settingsyellow from "../assets/settingsYello.svg";
 import WomanElec from "../assets/woman_electricity_pathway.png";
 const OilTradingInfo = () => {
   return (
-    <div className="p-28">
-      <div className="grid grid-cols-2 place-items-center place-content-center gap-20">
+    <div className="p-[30px] lg:p-28">
+      <div className="grid grid-cols-1 lg:grid-cols-2 place-items-center place-content-center gap-20">
         <div className="space-y-10">
           <div>
-            <h2 className="text-[40px] text-myYellow font-bold mt-1 mb-8 leading-none">
+            <h2 className="text-[40px] text-myYellow font-bold mt-1 mb-8 leading-tight">
               <span className="block text-black">Oil Trading</span>
               <span>Overview</span>
             </h2>
@@ -20,7 +20,7 @@ const OilTradingInfo = () => {
             </p>
           </div>
           <div>
-            <h2 className="text-[32px] text-myYellow font-bold mt-1 mb-4 leading-none">
+            <h2 className="text-[32px] text-myYellow font-bold mt-1 mb-4 leading-tight">
               Key Features
             </h2>
             <ul className="pl-7 space-y-6 text-[18px]">
@@ -44,7 +44,7 @@ const OilTradingInfo = () => {
         </div>
         <div className="space-y-10">
           <div>
-            <h2 className="text-[32px] text-myYellow font-bold mt-1 mb-4 leading-none">
+            <h2 className="text-[32px] text-myYellow font-bold mt-1 mb-4 leading-tight">
               Oil Trading Benefits
             </h2>
             <ul className="pl-7 space-y-6 text-[18px]">
@@ -68,7 +68,7 @@ const OilTradingInfo = () => {
             </ul>
           </div>
           <div>
-            <h2 className="text-[32px] text-myYellow font-bold mt-1 mb-4 leading-none">
+            <h2 className="text-[32px] text-myYellow font-bold mt-1 mb-4 leading-tight">
               Highest Expectations
             </h2>
             <ul className="pl-7 space-y-6 text-[18px]">

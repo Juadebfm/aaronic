@@ -21,7 +21,7 @@ const AboutHero = () => {
               Welcome to Our Company
             </p>
           </div>
-          <h1 className="text-4xl lg:text-[56px] font-bold w-full lg:w-[40%] mx-auto leading-tight capitalize">
+          <h1 className="text-4xl lg:text-[56px] font-bold w-full lg:w-[55%] mx-auto leading-tight capitalize">
             Build Your Organization With Our Techniques
           </h1>
           <p className="text-[20px] w-full lg:w-[45%] font-light">

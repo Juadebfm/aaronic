@@ -18,6 +18,7 @@ import ViewShipping from "./pages/ViewShipping";
 import MarineLogistics from "./pages/MarineLogistics";
 import Loading from "./utils/Loading";
 import useImageLoader from "./utils/useImageLoader"; // Import the custom hook
+import ScrollToTop from "./utils/ScrollToTop";
 
 const App = () => {
   const { loading, setLoading } = useImageLoader(); // Use the custom hook
@@ -25,6 +26,7 @@ const App = () => {
   return (
     <div className="overflow-x-hidden scrollbar-thumb-sky-700 scrollbar-track-sky-300 relative">
       <Router>
+        <ScrollToTop />
         <Navbar />
         {loading && <Loading />}
         <PageRoutes setLoading={setLoading} />

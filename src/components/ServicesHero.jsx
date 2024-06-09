@@ -10,7 +10,7 @@ const ServicesHero = () => {
   return (
     <>
       <div className="hidden lg:block relative mt-20">
-        <div className="absolute left-0 top-1/2 transform -translate-y-1/2 px-28 w-[55%]">
+        <div className="absolute left-0 top-1/2 transform -translate-y-1/2 px-[30px] lg:px-28 w-full lg:w-[55%]">
           <div className="flex items-center bg-myYellow/70 text-black py-3 px-6 w-max">
             <img src={SettingsIcon} alt="Settings" className="mr-2" />
             <p className="drop-shadow-sm font-light text-[18px]">
