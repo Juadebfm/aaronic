@@ -36,7 +36,7 @@ const ContactComp = () => {
             </span>
           </Link> */}
           <Link
-            to="https://www.instagram.com"
+            to="https://www.instagram.com/aaronicenergylimited?igsh=aGthbmNneGI1bWtw"
             target="_blank"
             className="flex items-center justify-center gap-5"
           >
@@ -46,7 +46,7 @@ const ContactComp = () => {
             </span>
           </Link>
           <Link
-            to="https://www.linkedin.com"
+            to="https://www.linkedin.com/company/aaronic-energy-ltd/"
             target="_blank"
             className="flex items-center justify-center gap-5"
           >
