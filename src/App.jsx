@@ -1,5 +1,4 @@
-// src/App.js
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import {
   BrowserRouter as Router,
   Routes,
@@ -18,21 +17,24 @@ import OilGas from "./pages/OilGas";
 import ViewShipping from "./pages/ViewShipping";
 import MarineLogistics from "./pages/MarineLogistics";
 import Loading from "./utils/Loading";
+import useImageLoader from "./utils/useImageLoader"; // Import the custom hook
 
 const App = () => {
+  const { loading, setLoading } = useImageLoader(); // Use the custom hook
+
   return (
     <div className="overflow-x-hidden scrollbar-thumb-sky-700 scrollbar-track-sky-300 relative">
       <Router>
         <Navbar />
-        <PageRoutes />
+        {loading && <Loading />}
+        <PageRoutes setLoading={setLoading} />
         <Footer />
       </Router>
     </div>
   );
 };
 
-const PageRoutes = () => {
-  const [loading, setLoading] = useState(false);
+const PageRoutes = ({ setLoading }) => {
   const location = useLocation();
 
   useEffect(() => {
@@ -42,23 +44,20 @@ const PageRoutes = () => {
     }, 1000); // Simulating loading time, adjust as needed
 
     return () => clearTimeout(timer);
-  }, [location]);
+  }, [location, setLoading]);
 
   return (
-    <>
-      {loading && <Loading />}
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/services" element={<Service />} />
-        <Route path="/careers" element={<Careers />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/FAQ" element={<FAQs />} />
-        <Route path="/oil_gas" element={<OilGas />} />
-        <Route path="/view_shipping" element={<ViewShipping />} />
-        <Route path="/marine_logistics" element={<MarineLogistics />} />
-      </Routes>
-    </>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/services" element={<Service />} />
+      <Route path="/careers" element={<Careers />} />
+      <Route path="/contact" element={<Contact />} />
+      <Route path="/FAQ" element={<FAQs />} />
+      <Route path="/oil_gas" element={<OilGas />} />
+      <Route path="/view_shipping" element={<ViewShipping />} />
+      <Route path="/marine_logistics" element={<MarineLogistics />} />
+    </Routes>
   );
 };
 
