@@ -15,13 +15,13 @@ const ViewShipping = () => {
     <div>
       <div className="relative mt-20">
         <div className="absolute left-0 top-1/2 transform -translate-y-1/2 px-[30px] lg:px-28 w-full lg:w-[65%] z-10 drop-shadow-lg">
-          <div className="hidden lg:flex items-center bg-myYellow/70 text-black py-3 px-6 w-max">
+          <div className="hidden md:flex md:mx-auto lg:mx-0 items-center bg-myYellow/70 text-black py-3 px-6 w-max">
             <img src={SettingsIcon} alt="Settings" className="mr-2" />
             <p className="drop-shadow-sm font-light text-[18px]">
               Our Services
             </p>
           </div>
-          <h1 className="text-4xl lg:text-[52px] font-bold leading-tight mt-5">
+          <h1 className="text-4xl lg:text-[52px] font-bold leading-tight mt-5 md:w-[70%] lg:w-auto md:mx-auto lg:mx-0 text-center lg:text-start">
             Efficiency in Every Move Handle With Care and Expertise
           </h1>
         </div>

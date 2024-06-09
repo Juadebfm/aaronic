@@ -11,7 +11,7 @@ const OilTradingInfo = () => {
               <span className="block text-black">Oil Trading</span>
               <span>Overview</span>
             </h2>
-            <p className="text-[18px] w-[85%] font-light">
+            <p className="text-[18px] w-full lg:w-[85%] font-light">
               We are at the forefront of the oil trading industry, offering
               robust trading solutions that drive growth and profitability. With
               a focus on both crude and refined oil products, Aaronic Energy

@@ -7,6 +7,11 @@ import Liyas from "../assets/liyas.png";
 import Aishat from "../assets/aishat.png";
 import Kemi from "../assets/kemi.png";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+AOS.init();
+
 const Testimonials = () => {
   return (
     <div className="px-[15px] md:px-20 lg:px-28 py-16 lg:py-36 relative">
@@ -33,7 +38,11 @@ const Testimonials = () => {
         </h2>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 place-items-center place-content-center gap-7 lg:gap-16 mt-10">
-          <div className="flex items-center justify-start bg-white gap-3 lg:gap-7 py-5 px-6 shadow-md shadow-gray-500 rounded-lg border-l-[4px] border-l-myYellow w-full lg:w-[500px] h-auto lg:h-[150px]">
+          <div
+            data-aos="fade-up"
+            data-aos-duration="500"
+            className="flex items-center justify-start bg-white gap-3 lg:gap-7 py-5 px-6 shadow-md shadow-gray-500 rounded-lg border-l-[4px] border-l-myYellow w-full lg:w-[500px] h-auto lg:h-[150px]"
+          >
             <img src={John} alt="John Davis" className="w-[80px] h-[80px]" />
 
             <div>
@@ -60,7 +69,11 @@ const Testimonials = () => {
               </div>
             </div>
           </div>
-          <div className="flex items-center justify-start bg-white gap-3 lg:gap-7 py-5 px-6 shadow-md shadow-gray-500 rounded-lg border-l-[4px] border-l-myYellow w-full lg:w-[500px] h-auto lg:h-[150px]">
+          <div
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            className="flex items-center justify-start bg-white gap-3 lg:gap-7 py-5 px-6 shadow-md shadow-gray-500 rounded-lg border-l-[4px] border-l-myYellow w-full lg:w-[500px] h-auto lg:h-[150px]"
+          >
             <img src={Mary} alt="John Davis" className="w-[80px] h-[80px]" />
 
             <div>
@@ -88,8 +101,12 @@ const Testimonials = () => {
               </div>
             </div>
           </div>
-          <div className="flex items-center justify-start bg-white gap-3 lg:gap-7 py-5 px-6 shadow-md shadow-gray-500 rounded-lg border-l-[4px] border-l-myYellow w-full lg:w-[500px] h-auto lg:h-[150px]">
-            <img src={Mary} alt="John Davis" className="w-[80px] h-[80px]" />
+          <div
+            data-aos="fade-up"
+            data-aos-duration="1200"
+            className="flex items-center justify-start bg-white gap-3 lg:gap-7 py-5 px-6 shadow-md shadow-gray-500 rounded-lg border-l-[4px] border-l-myYellow w-full lg:w-[500px] h-auto lg:h-[150px]"
+          >
+            <img src={Liyas} alt="John Davis" className="w-[80px] h-[80px]" />
 
             <div>
               <div className="flex flex-col lg:flex-row items-baseline justify-start gap-0 lg:gap-2">
@@ -116,7 +133,11 @@ const Testimonials = () => {
               </div>
             </div>
           </div>
-          <div className="flex items-center justify-start bg-white gap-3 lg:gap-7 py-5 px-6 shadow-md shadow-gray-500 rounded-lg border-l-[4px] border-l-myYellow w-full lg:w-[500px] h-auto lg:h-[150px]">
+          <div
+            data-aos="fade-up"
+            data-aos-duration="1400"
+            className="flex items-center justify-start bg-white gap-3 lg:gap-7 py-5 px-6 shadow-md shadow-gray-500 rounded-lg border-l-[4px] border-l-myYellow w-full lg:w-[500px] h-auto lg:h-[150px]"
+          >
             <img src={Liyas} alt="John Davis" className="w-[80px] h-[80px]" />
 
             <div>
@@ -144,7 +165,11 @@ const Testimonials = () => {
               </div>
             </div>
           </div>
-          <div className="flex items-center justify-start bg-white gap-3 lg:gap-7 py-5 px-6 shadow-md shadow-gray-500 rounded-lg border-l-[4px] border-l-myYellow w-full lg:w-[500px] h-auto lg:h-[150px]">
+          <div
+            data-aos="fade-up"
+            data-aos-duration="1600"
+            className="flex items-center justify-start bg-white gap-3 lg:gap-7 py-5 px-6 shadow-md shadow-gray-500 rounded-lg border-l-[4px] border-l-myYellow w-full lg:w-[500px] h-auto lg:h-[150px]"
+          >
             <img src={Aishat} alt="John Davis" className="w-[80px] h-[80px]" />
 
             <div>
@@ -172,7 +197,11 @@ const Testimonials = () => {
               </div>
             </div>
           </div>
-          <div className="flex items-center justify-start bg-white gap-3 lg:gap-7 py-5 px-6 shadow-md shadow-gray-500 rounded-lg border-l-[4px] border-l-myYellow w-full lg:w-[500px] h-auto lg:h-[150px]">
+          <div
+            data-aos="fade-up"
+            data-aos-duration="1800"
+            className="flex items-center justify-start bg-white gap-3 lg:gap-7 py-5 px-6 shadow-md shadow-gray-500 rounded-lg border-l-[4px] border-l-myYellow w-full lg:w-[500px] h-auto lg:h-[150px]"
+          >
             <img src={Kemi} alt="John Davis" className="w-[80px] h-[80px]" />
 
             <div>

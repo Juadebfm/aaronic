@@ -4,6 +4,11 @@ import Partner2 from "../assets/empisto_partner.png";
 import Partner3 from "../assets/crystalline_partners.png";
 import Partner4 from "../assets/milan_partners.png";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+AOS.init();
+
 const Partners = () => {
   return (
     <div className="flex items-center justify-center flex-col px-[25px] lg:px-28 py-10 lg:py-20 gap-10">
@@ -13,10 +18,30 @@ const Partners = () => {
           src={Partner1}
           alt="Augustine Jackson"
           className="h-[84px] w-[238px]"
+          data-aos="fade-left"
+          data-aos-duration="500"
         />
-        <img src={Partner2} alt="Empisto" className="h-[84px] w-[238px]" />
-        <img src={Partner3} alt="Crystalline" className="h-[84px] w-[238px]" />
-        <img src={Partner4} alt="Milan" className="h-[84px] w-[238px]" />
+        <img
+          src={Partner2}
+          alt="Empisto"
+          className="h-[84px] w-[238px]"
+          data-aos="fade-left"
+          data-aos-duration="1000"
+        />
+        <img
+          src={Partner3}
+          alt="Crystalline"
+          className="h-[84px] w-[238px]"
+          data-aos="fade-left"
+          data-aos-duration="1500"
+        />
+        <img
+          src={Partner4}
+          alt="Milan"
+          className="h-[84px] w-[238px]"
+          data-aos="fade-left"
+          data-aos-duration="2000"
+        />
       </div>
     </div>
   );

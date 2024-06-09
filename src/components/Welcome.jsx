@@ -5,6 +5,11 @@ import Three from "../assets/3+years.png";
 import Four from "../assets/4+.png";
 import Ninety from "../assets/90+.png";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+AOS.init();
+
 const Welcome = () => {
   return (
     <div className="px-[25px] md:px-20 lg:px-28 py-10 grid grid-cols-1 lg:grid-cols-2 place-content-center place-items-center">
@@ -13,7 +18,11 @@ const Welcome = () => {
       </div>
 
       <div className="pl-0 lg:pl-7 relative">
-        <div className=" mt-16 lg:mt-44 -ml-0 lg:-ml-24">
+        <div
+          className=" mt-16 lg:mt-44 -ml-0 lg:-ml-24"
+          data-aos="fade-left"
+          data-aos-duration="1500"
+        >
           <div className="flex items-center bg-transparent text-black py-3 w-max">
             <img src={YellowElement} alt="Settings" className="mr-2" />
             <p className="drop-shadow-sm font-light text-[18px]">
@@ -24,7 +33,11 @@ const Welcome = () => {
             Aaronic Energy Provides a Full Range of Services
           </h2>
         </div>
-        <p className="w-full lg:w-[75%] mt-8 text-[18px] font-light">
+        <p
+          className="w-full lg:w-[75%] mt-8 text-[18px] font-light"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+        >
           We successfully cope with tasks of varying complexity, provide
           long-term guarantees and regularly master new technologies. Our
           portfolio includes dozens of successfully completed projects of houses
@@ -36,16 +49,22 @@ const Welcome = () => {
             src={Three}
             alt="3+ Years Of Service"
             className="w-[200px] h-[107px] mt-0 lg:mt-32"
+            data-aos="fade-up"
+            data-aos-duration="1000"
           />
           <img
             src={Four}
             alt="4+ Years Of Site Development"
             className="w-[200px] h-[107px]"
+            data-aos="fade-up"
+            data-aos-duration="1500"
           />
           <img
             src={Ninety}
             alt="90 People in the team"
             className="w-[200px] h-[107px] mt-0 lg:mt-48"
+            data-aos="fade-up"
+            data-aos-duration="2000"
           />
         </div>
       </div>

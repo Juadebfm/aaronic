@@ -3,9 +3,19 @@ import OilTrading from "../assets/oil_trading.png";
 import Shipping from "../assets/shipping.png";
 import MarineLogistics from "../assets/marinelogistics.png";
 import Slanted from "../assets/slanted_orange.png";
+
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+AOS.init();
+
 const ServicesComp = () => {
   return (
-    <div className="flex flex-col lg:flex-row items-center justify-center gap-24 p-[35px] py-10 mt-10 lg:mt-0 lg:p-40">
+    <div
+      className="flex flex-col lg:flex-row items-center justify-center gap-24 p-[35px] py-10 mt-10 lg:mt-0 lg:p-40"
+      data-aos="fade-up"
+      data-aos-duration="1500"
+    >
       <div className="w-[311px] h-[373px] relative">
         <img src={Slanted} alt="" />
         <div className="absolute -top-7 w-full h-full">

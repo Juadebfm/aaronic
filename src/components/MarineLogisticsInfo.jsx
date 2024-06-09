@@ -10,7 +10,7 @@ const MarineLogisticsInfo = () => {
               <span className="block text-black">Marine Logistics</span>
               <span>Overview</span>
             </h2>
-            <p className="text-[18px] w-[85%] font-light">
+            <p className="text-[18px] w-full lg:w-[85%] font-light">
               Our marine logistics service covers every aspect of maritime
               operations, ensuring that supply chain is robust and resilient. We
               specialize in both chartering and the management of fleet

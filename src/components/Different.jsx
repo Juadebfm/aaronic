@@ -7,9 +7,18 @@ import WomanBuilding from "../assets/woman_building.png";
 import Skew from "../assets/skew.png";
 import SettingsIcon from "../assets/settings-icon.svg";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+AOS.init();
+
 const Different = () => {
   return (
-    <div className="relative my-10 lg:my-20 h-max lg:h-full">
+    <div
+      className="relative my-10 lg:my-20 h-max lg:h-full"
+      data-aos="fade-up"
+      data-aos-duration="1000"
+    >
       <img src={DifferentBg} alt="Background" className="w-full h-full" />
       <div className="static lg:absolute inset-0 bg-black/60"></div>
       <div className="static lg:absolute inset-0 flex flex-col items-center justify-center text-white">
