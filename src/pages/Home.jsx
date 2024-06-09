@@ -21,7 +21,7 @@ const Home = () => {
       <CoreValues />
       <Facet />
       <CTA />
-      <Testimonials />
+      <Testimonials id="social-proof" />
       <FAQ />
     </div>
   );

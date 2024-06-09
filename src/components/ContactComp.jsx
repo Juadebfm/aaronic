@@ -2,7 +2,6 @@ import React from "react";
 import contactcomp from "../assets/contactcomp.png";
 import { Link } from "react-router-dom";
 import { TbPhoneCall } from "react-icons/tb";
-import { TfiTwitter } from "react-icons/tfi";
 import { TfiInstagram } from "react-icons/tfi";
 import { TfiLocationPin } from "react-icons/tfi";
 import { TfiLinkedin } from "react-icons/tfi";
