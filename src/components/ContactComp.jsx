@@ -82,7 +82,7 @@ const ContactComp = () => {
             <h3 className="text-bold uppercase text-[20px] font-bold">
               Restoration Oil & Gas
             </h3>
-            <li className="flex flex-col items-start justify-start w-[70%]">
+            <li className="flex flex-col items-start justify-start w-full md:w-[70%]">
               <span className="uppercase font-bold mb-2">Address:</span>
               <div className="flex items-center justify-center gap-3">
                 <TfiLocationPin className="text-4xl" />
@@ -90,7 +90,7 @@ const ContactComp = () => {
                   AVENIDA BALBOA CLLE ENRQUE Linares EDI 769, Panama City Panama
                 </span>
               </div>
-              <div className="flex items-center justify-center gap-3">
+              <div className="flex items-center justify-center gap-3 mt-5">
                 <TfiLocationPin className="text-4xl" />
                 <span className="hover:text-gray-600 duration-150 ease-linear">
                   Oﬃce #3317, Floor #33 Saeed Tower-1 Sheikh Zayed Road Dubai,
@@ -98,7 +98,7 @@ const ContactComp = () => {
                 </span>
               </div>
             </li>
-            <li className="flex flex-col items-start justify-start w-[70%]">
+            <li className="flex flex-col items-start justify-start w-full md:w-[70%]">
               <span className="uppercase font-bold mb-2">Email:</span>
               <Link
                 to="mailto:info@restorationoilandgas.com"
