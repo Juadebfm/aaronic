@@ -4,9 +4,8 @@ import HeroImg1 from "../assets/Image2.jpg";
 import HeroImg2 from "../assets/Image.jpg";
 import HeroImg3 from "../assets/hero_img_man_folding_hands.png";
 import HeroImg1Mobile from "../assets/menu1.png";
-import HeroImg2Mobile from "../assets/menu2.png";
-import HeroImg3Mobile from "../assets/menu3.png";
-import SettingsIcon from "../assets/settings-icon.svg";
+import HeroImg2Mobile from "../assets/menu2.webp";
+import HeroImg3Mobile from "../assets/menu3.webp";
 
 // import Swiper core and required modules
 import {
