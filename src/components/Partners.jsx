@@ -1,5 +1,5 @@
 import React from "react";
-import Partner1 from "../assets/augustine_partner.png";
+import Partner1 from "../assets/restoration.webp";
 import Partner2 from "../assets/empisto_partner.png";
 import Partner3 from "../assets/crystalline_partners.png";
 import Partner4 from "../assets/milan_partners.png";
@@ -16,11 +16,12 @@ const Partners = () => {
       <div className="grid grid-cols-1 lg:grid-cols-4 place-items-center gap-10">
         <img
           src={Partner1}
-          alt="Augustine Jackson"
-          className="h-[84px] w-[238px]"
+          alt="Restoration"
+          className="h-[84px] w-[238px] gray-image"
           data-aos="fade-left"
           data-aos-duration="500"
         />
+
         <img
           src={Partner2}
           alt="Empisto"

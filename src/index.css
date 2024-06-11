@@ -191,3 +191,7 @@ body.modal-open {
     display: none;
   }
 }
+
+.gray-image {
+  filter: grayscale(100%);
+}
