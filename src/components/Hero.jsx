@@ -1,8 +1,8 @@
 import React from "react";
 
-import HeroImg1 from "../assets/Image2.wepb";
-import HeroImg2 from "../assets/Image.wepb";
-import HeroImg3 from "../assets/man_folding_hands.wepb";
+import HeroImg1 from "../assets/img.webp";
+import HeroImg2 from "../assets/Image.webp";
+import HeroImg3 from "../assets/man_folding_hands.webp";
 import HeroImg1Mobile from "../assets/menu1.webp";
 import HeroImg2Mobile from "../assets/menu2.webp";
 import HeroImg3Mobile from "../assets/menu3.webp";

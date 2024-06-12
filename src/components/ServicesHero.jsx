@@ -3,8 +3,8 @@ import HeroImg2 from "../assets/servicebg.png";
 import SettingsIcon from "../assets/settings-icon.svg";
 import pyramid from "../assets/pyramid.png";
 
-import HeroImg1 from "../assets/Image2.jpg";
-import HeroImg1Mobile from "../assets/menu1.png";
+import HeroImg1Mobile from "../assets/menu1.webp";
+import HeroImg1 from "../assets/img.webp";
 
 const ServicesHero = () => {
   return (
