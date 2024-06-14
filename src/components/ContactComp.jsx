@@ -43,7 +43,7 @@ const ContactComp = () => {
             >
               <TfiLinkedin className="text-2xl" />
               <span className="hover:text-gray-600 duration-150 ease-linear">
-                Aaronicenergylimited
+                Aaronic Energy Ltd
               </span>
             </Link>
             <Link
@@ -128,6 +128,37 @@ const ContactComp = () => {
                 <TbPhoneCall className="text-2xl" />
                 <span className="hover:text-gray-600 duration-150 ease-linear">
                   +507-658-20239
+                </span>
+              </Link>
+            </li>
+          </ul>
+        </div>
+        <div className="flex flex-col items-start justify-center w-full mt-16">
+          <h2 className="text-3xl lg:text-[40px] text-myYellow font-bold mt-1">
+            Finance Business Partner
+          </h2>
+          <ul className="text-base flex flex-col items-start justify-start space-y-5 mt-8">
+            <h3 className="text-bold uppercase text-[20px] font-bold">
+              Blue Springs Energy LTD
+            </h3>
+            <li className="flex flex-col items-start justify-start w-full md:w-[70%]">
+              <span className="uppercase font-bold mb-2">Address:</span>
+              <div className="flex items-center justify-center gap-3">
+                <TfiLocationPin className="text-4xl" />
+                <span className="hover:text-gray-600 duration-150 ease-linear">
+                  8 Cheif Waheed Eletu Way Osapa London, Lekki, Lagos. Nigeria.
+                </span>
+              </div>
+            </li>
+            <li className="flex flex-col items-start justify-start w-[70%]">
+              <span className="uppercase font-bold mb-2">Phone:</span>
+              <Link
+                to="tel:+2349034750107"
+                className="flex items-center justify-center gap-3 mt-4"
+              >
+                <TbPhoneCall className="text-2xl" />
+                <span className="hover:text-gray-600 duration-150 ease-linear">
+                  +234-903-475-0107
                 </span>
               </Link>
             </li>
