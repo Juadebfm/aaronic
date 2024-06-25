@@ -1,7 +1,7 @@
 import React from "react";
 import AEnergy from "../assets/aaronic_energy.png";
 import YellowElement from "../assets/yellowelement.svg";
-import Three from "../assets/3+years.png";
+import Three from "../assets/12.png";
 import Four from "../assets/4+.png";
 import Ninety from "../assets/90+.png";
 
@@ -38,16 +38,17 @@ const Welcome = () => {
           data-aos="fade-right"
           data-aos-duration="1000"
         >
-          We successfully cope with tasks of varying complexity, provide
-          long-term guarantees and regularly master new technologies. Our
-          portfolio includes dozens of successfully completed projects of houses
-          of different storeys, with high–quality finishes and good repairs.
-          Building houses is our vocation!
+          Aaronic Energy specialises in oil trading, marine logistics, and ship
+          management which they engage in the buying and selling of crude oil
+          and refined products, ensuring efficient and secure transportation of
+          oil and other goods across the globe, utilising a fleet of advanced
+          vessels and overseeing the maintenance, crewing, and operational
+          efficiency of maritime assets.
         </p>
         <div className="flex flex-col lg:flex-row items-center justify-center -ml-0 lg:-ml-24 -mt-0 lg:-mt-14 mt-14 lg:mt-0 gap-10 lg:gap-4">
           <img
             src={Three}
-            alt="3+ Years Of Service"
+            alt="12+ Years Of Service"
             className="w-[200px] h-[107px] mt-0 lg:mt-32"
             data-aos="fade-up"
             data-aos-duration="1000"

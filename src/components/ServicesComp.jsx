@@ -11,9 +11,9 @@ AOS.init();
 
 const ServicesComp = () => {
   return (
-    <div className="flex flex-col lg:flex-row items-center justify-center gap-24 p-[35px] py-10 mt-10 lg:mt-0 lg:p-40">
+    <div className="flex flex-col lg:flex-row items-center justify-center gap-24 p-[25px] py-10 mt-10 lg:mt-0 lg:p-40">
       <div
-        className="w-[311px] h-[373px] relative"
+        className="w-full lg:w-[311px] h-[373px] relative"
         data-aos="fade-left"
         data-aos-duration="1000"
       >
@@ -36,7 +36,7 @@ const ServicesComp = () => {
         </div>
       </div>
       <div
-        className="w-[311px] h-[373px] relative"
+        className="w-full lg:w-[311px] h-[373px] relative"
         data-aos="fade-left"
         data-aos-duration="1500"
       >
@@ -50,15 +50,15 @@ const ServicesComp = () => {
           <div className="flex items-center justify-center flex-col">
             <h3 className="font-bold text-[18px] mb-4">Shipping</h3>
             <p className="text-[18px] font-light text-center drop-shadow-md">
-              Given our logistics and operational expertise, we ensure that our
-              product delivery meets the specifications of our ever-dynamic
-              customers.
+              Here, we offer a range of shipping services designed to support
+              its operations in the energy sector, specializing in the
+              transportation of oil & gas.
             </p>
           </div>
         </div>
       </div>
       <div
-        className="w-[311px] h-[373px] relative"
+        className="w-full lg:w-[311px] h-[373px] relative"
         data-aos="fade-left"
         data-aos-duration="2000"
       >
