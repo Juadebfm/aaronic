@@ -12,10 +12,12 @@ const Facet = () => {
             Oil & Gas Trading
           </h3>
           <p className="hidden group-hover:block transition-all duration-500 ease-in-out mb-6 text-xl">
-            Ensuring a reliable and consistent supply of oil products to our
-            clients through strategic partnerships and efficient logistics,
-            thereby ensuring a timely delivery, minimizing disruptions and
-            meeting clients' demands effectively.
+            At Aaronic Energy, we source crude and refined petroleum products
+            from our strategic counterparties both locally and internationally
+            and we deliver these products to our clients within the Nigerian and
+            West African Market. Given our logistics and operational expertise,
+            we ensure that our product delivery meets the specifications of our
+            ever-dynamic customers.
           </p>
           <IoArrowForwardCircle className="text-[60px] transition-all duration-500 ease-in-out group-hover:text-white" />
         </div>

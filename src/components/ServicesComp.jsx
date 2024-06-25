@@ -22,14 +22,15 @@ const ServicesComp = () => {
           <img
             src={OilTrading}
             alt="Oil Trading"
-            className="w-[215px] h-[173px] mb-7"
+            className="w-[240px] h-[190px] mb-7"
           />
           <div className="flex items-center justify-center flex-col">
             <h3 className="font-bold text-[18px] mb-4">Oil Trading</h3>
             <p className="text-[18px] font-light text-center drop-shadow-md">
-              We facilitate the efficient buying, selling, and transportation of
-              crude oil and refined petroleum products by leveraging its
-              extensive network.
+              At Aaronic Energy, we source crude and refined petroleum products
+              from our strategic counterparties both locally and internationally
+              and we deliver these products to our clients within the Nigerian
+              and West African Market.
             </p>
           </div>
         </div>
@@ -44,14 +45,14 @@ const ServicesComp = () => {
           <img
             src={Shipping}
             alt="Oil Trading"
-            className="w-[215px] h-[173px] mb-7"
+            className="w-[240px] h-[190px] mb-7"
           />
           <div className="flex items-center justify-center flex-col">
             <h3 className="font-bold text-[18px] mb-4">Shipping</h3>
             <p className="text-[18px] font-light text-center drop-shadow-md">
-              Here, we offer a range of shipping services designed to support
-              its operations in the energy sector, specializing in the
-              transportation of oil & gas.
+              Given our logistics and operational expertise, we ensure that our
+              product delivery meets the specifications of our ever-dynamic
+              customers.
             </p>
           </div>
         </div>
@@ -66,7 +67,7 @@ const ServicesComp = () => {
           <img
             src={MarineLogistics}
             alt="Oil Trading"
-            className="w-[215px] h-[173px] mb-7"
+            className="w-[240px] h-[190px] mb-7"
           />
           <div className="flex items-center justify-center flex-col">
             <h3 className="font-bold text-[18px] mb-4">Marine Logistics</h3>
