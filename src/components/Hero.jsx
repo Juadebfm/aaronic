@@ -69,7 +69,7 @@ const Hero = () => {
               alt="Engineers"
               className="h-full lg:h-auto w-full"
             />
-            <div className="lg:hidden absolute inset-0 bg-black opacity-45"></div>
+            <div className="lg:hidden absolute inset-0 bg-black opacity-60"></div>
           </picture>
         </SwiperSlide>
 
@@ -99,7 +99,7 @@ const Hero = () => {
               alt="Engineers"
               className="h-full lg:h-auto w-full"
             />
-            <div className="lg:hidden absolute inset-0 bg-black opacity-45"></div>
+            <div className="lg:hidden absolute inset-0 bg-black opacity-60"></div>
           </picture>
         </SwiperSlide>
 
@@ -129,7 +129,7 @@ const Hero = () => {
               alt="Engineers"
               className="h-full lg:h-auto w-full"
             />
-            <div className="lg:hidden absolute inset-0 bg-black opacity-45"></div>
+            <div className="lg:hidden absolute inset-0 bg-black opacity-60"></div>
           </picture>
         </SwiperSlide>
         <Modal isOpen={isOpen} onClose={closeModal}>
