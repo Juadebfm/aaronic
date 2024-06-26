@@ -18,7 +18,7 @@ const Partners = () => {
           src={Partner1}
           alt="Restoration"
           className="h-[84px] w-[238px] gray-image"
-          data-aos="fade-left"
+          data-aos="fade-up"
           data-aos-duration="500"
         />
 
@@ -26,21 +26,21 @@ const Partners = () => {
           src={Partner2}
           alt="Empisto"
           className="h-[84px] w-[238px]"
-          data-aos="fade-left"
+          data-aos="fade-up"
           data-aos-duration="1000"
         />
         <img
           src={Partner3}
           alt="Crystalline"
           className="h-[84px] w-[238px]"
-          data-aos="fade-left"
+          data-aos="fade-up"
           data-aos-duration="1500"
         />
         <img
           src={Partner5}
           alt="Milan"
           className="h-[84px] w-auto gray-image"
-          data-aos="fade-left"
+          data-aos="fade-up"
           data-aos-duration="2000"
         />
       </div>

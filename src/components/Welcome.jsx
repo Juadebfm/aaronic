@@ -20,7 +20,7 @@ const Welcome = () => {
       <div className="pl-0 lg:pl-7 relative">
         <div
           className=" mt-16 lg:mt-44 -ml-0 lg:-ml-24"
-          data-aos="fade-left"
+          data-aos="fade-up"
           data-aos-duration="1500"
         >
           <div className="flex items-center bg-transparent text-black py-3 w-max">
@@ -35,7 +35,7 @@ const Welcome = () => {
         </div>
         <p
           className="w-full lg:w-[75%] mt-8 text-[18px] font-light"
-          data-aos="fade-right"
+          data-aos="fade-up"
           data-aos-duration="1000"
         >
           Aaronic Energy specialises in oil trading, marine logistics, and ship

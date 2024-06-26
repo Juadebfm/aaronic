@@ -7,11 +7,20 @@ import { TfiLocationPin } from "react-icons/tfi";
 import { TfiLinkedin } from "react-icons/tfi";
 import { CiMail } from "react-icons/ci";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+AOS.init();
+
 const ContactComp = () => {
   return (
     <div className="px-[25px] md:px-20 lg:px-28 grid grid-cols-1 lg:grid-cols-2 justify-start py-20 mt-16 lg:mt-24">
       <div>
-        <div className="flex flex-col items-start justify-center w-full">
+        <div
+          className="flex flex-col items-start justify-center w-full"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        >
           <h2 className="text-3xl lg:text-[40px] text-myYellow font-bold mt-1">
             Reach Out to Us
           </h2>
@@ -74,7 +83,11 @@ const ContactComp = () => {
             </li>
           </ul>
         </div>
-        <div className="flex flex-col items-start justify-center w-full mt-16">
+        <div
+          className="flex flex-col items-start justify-center w-full mt-16"
+          data-aos="fade-up"
+          data-aos-duration="2500"
+        >
           <h2 className="text-3xl lg:text-[40px] text-myYellow font-bold mt-1">
             Our Strategic Partners
           </h2>
@@ -133,7 +146,11 @@ const ContactComp = () => {
             </li>
           </ul>
         </div>
-        <div className="flex flex-col items-start justify-center w-full mt-16">
+        <div
+          className="flex flex-col items-start justify-center w-full mt-16"
+          data-aos="fade-up"
+          data-aos-duration="3000"
+        >
           <h2 className="text-3xl lg:text-[40px] text-myYellow font-bold mt-1">
             Finance Business Partner
           </h2>

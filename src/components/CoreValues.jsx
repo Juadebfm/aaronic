@@ -10,7 +10,7 @@ AOS.init();
 const CoreValues = () => {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2 place-items-center place-content-center p-[25px] md:px-20 lg:p-28">
-      <div data-aos="fade-right" data-aos-duration="2000">
+      <div data-aos="fade-up" data-aos-duration="2000">
         <div className="flex items-center text-black py-3 pr-6 mt-10 w-max">
           <img src={Settingsyellow} alt="Settings" className="mr-2" />
           <p className="drop-shadow-sm normal-case font-light text-[18px]">
@@ -31,7 +31,7 @@ const CoreValues = () => {
           confidence and reinforce our market credibility.
         </p>
       </div>
-      <div data-aos="fade-left" data-aos-duration="2000">
+      <div data-aos="fade-up" data-aos-duration="2000">
         <img
           src={WomanElec}
           alt="Workers "

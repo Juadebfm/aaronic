@@ -13,8 +13,8 @@ const ServicesComp = () => {
   return (
     <div className="flex flex-col lg:flex-row items-center justify-center gap-24 p-[25px] py-10 mt-10 lg:mt-0 lg:p-40">
       <div
-        className="w-full lg:w-[311px] h-[373px] relative"
-        data-aos="fade-left"
+        className="w-full lg:w-[311px] h-auto lg:h-[373px] relative"
+        data-aos="fade-up"
         data-aos-duration="1000"
       >
         <img src={Slanted} alt="" />
@@ -36,8 +36,8 @@ const ServicesComp = () => {
         </div>
       </div>
       <div
-        className="w-full lg:w-[311px] h-[373px] relative"
-        data-aos="fade-left"
+        className="w-full lg:w-[311px] h-auto lg:h-[373px] relative"
+        data-aos="fade-up"
         data-aos-duration="1500"
       >
         <img src={Slanted} alt="" className="h-auto w-full" />
@@ -58,8 +58,8 @@ const ServicesComp = () => {
         </div>
       </div>
       <div
-        className="w-full lg:w-[311px] h-[373px] relative"
-        data-aos="fade-left"
+        className="w-full lg:w-[311px] h-auto lg:h-[373px] relative"
+        data-aos="fade-up"
         data-aos-duration="2000"
       >
         <img src={Slanted} alt="" />
