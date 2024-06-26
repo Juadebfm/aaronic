@@ -48,7 +48,7 @@ const Modal = ({ isOpen, onClose }) => {
   };
 
   const submitForm = () => {
-    fetch("https://formspree.io/f/moqggaar", {
+    fetch("https://formspree.io/f/xjkbbzyb", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
