@@ -33,7 +33,12 @@ const Different = () => {
         </h2>
         <div className="grid grid-cols-1 lg:grid-cols-4 place-items-center place-content-center gap-5 px-[25px] md:px-20 lg:px-16 mt-0 lg:mt-10">
           <div className="flex flex-col items-center">
-            <img src={Pointing} alt="Lady Pointing" className="mb-4" />
+            <img
+              src={Pointing}
+              alt="Lady Pointing"
+              className="mb-4"
+              loading="lazy"
+            />
             <div
               className="-mt-12 p-[2px] w-full h-max"
               style={{
@@ -56,7 +61,12 @@ const Different = () => {
             </div>
           </div>
           <div className="flex flex-col items-center">
-            <img src={ManElectricity} alt="Lady Pointing" className="mb-4" />
+            <img
+              src={ManElectricity}
+              alt="Lady Pointing"
+              className="mb-4"
+              loading="lazy"
+            />
             <div
               className="-mt-12 p-[2px] w-full h-max"
               style={{
@@ -107,7 +117,12 @@ const Different = () => {
             </div>
           </div>
           <div className="flex flex-col items-center">
-            <img src={WomanBuilding} alt="Lady Pointing" className="mb-4" />
+            <img
+              src={WomanBuilding}
+              alt="Lady Pointing"
+              className="mb-4"
+              loading="lazy"
+            />
             <div
               className="-mt-12 p-[2px] w-full h-max"
               style={{

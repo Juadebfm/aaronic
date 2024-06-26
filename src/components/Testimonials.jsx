@@ -19,6 +19,7 @@ const Testimonials = () => {
         src={Pattern}
         alt=""
         className="absolute top-0 left-0 w-auto h-full lg:h-[1000px] -z-10"
+        loading="lazy"
       />
       <div className="flex flex-col items-center justify-center">
         <div className="flex items-center justify-center gap-5">

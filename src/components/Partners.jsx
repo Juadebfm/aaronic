@@ -35,6 +35,8 @@ const Partners = () => {
           className="h-[84px] w-[238px]"
           data-aos="fade-up"
           data-aos-duration="1500"
+          width={238}
+          height={84}
         />
         <img
           src={Partner5}

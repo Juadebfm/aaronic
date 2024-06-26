@@ -63,7 +63,11 @@ const Hero = () => {
             />
           </div>
           <picture className="relative">
-            <source media="(max-width: 767px)" srcSet={HeroImg3Mobile} />
+            <source
+              media="(max-width: 767px)"
+              srcSet={HeroImg3Mobile}
+              loading="lazy"
+            />
             <img
               src={HeroImg3}
               alt="Engineers"
