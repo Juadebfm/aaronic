@@ -56,23 +56,13 @@ const ContactComp = () => {
               </span>
             </Link>
             <Link
-              to="mailto:contact@aaronic.com.ng"
+              to="mailto:contact@aaronicenergy.com"
               target="_blank"
               className="flex items-center justify-center gap-3"
             >
               <CiMail className="text-2xl" />
               <span className="hover:text-gray-600 duration-150 ease-linear">
-                contact@aaronic.com.ng
-              </span>
-            </Link>
-            <Link
-              to="mailto:info@aaronic.com.ng"
-              target="_blank"
-              className="flex items-center justify-center gap-3"
-            >
-              <CiMail className="text-2xl" />
-              <span className="hover:text-gray-600 duration-150 ease-linear">
-                info@aaronic.com.ng
+                contact@aaronicenergy.com
               </span>
             </Link>
             <li className="flex items-center justify-center gap-3">
