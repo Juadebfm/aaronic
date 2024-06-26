@@ -59,7 +59,7 @@ const Hero = () => {
             <Button
               onClick={openModal}
               btnText="Get Started"
-              className="text-black rounded-md w-full md:w-[50%] lg:w-full flex items-center justify-center mx-auto px-8 py-4 bg-myYellow mt-10"
+              className="text-black rounded-md w-full md:w-[50%] flex items-center justify-center md:mx-auto lg:mx-0 px-8 py-4 bg-myYellow mt-10"
             />
           </div>
           <picture className="relative">
@@ -89,7 +89,7 @@ const Hero = () => {
             <Button
               onClick={openModal}
               btnText="Get Started"
-              className="text-black rounded-md w-full md:w-[50%] lg:w-full flex items-center justify-center mx-auto px-8 py-4 bg-myYellow mt-10"
+              className="text-black rounded-md w-full md:w-[50%] flex items-center justify-center md:mx-auto lg:mx-0 px-8 py-4 bg-myYellow mt-10"
             />
           </div>
           <picture className="relative">
@@ -119,7 +119,7 @@ const Hero = () => {
             <Button
               onClick={openModal}
               btnText="Get Started"
-              className="text-black rounded-md w-full md:w-[50%] lg:w-full flex items-center justify-center mx-auto px-8 py-4 bg-myYellow mt-10"
+              className="text-black rounded-md w-full md:w-[50%] flex items-center justify-center md:mx-auto lg:mx-0 px-8 py-4 bg-myYellow mt-10"
             />
           </div>
           <picture className="relative">
