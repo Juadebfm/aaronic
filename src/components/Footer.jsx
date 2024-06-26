@@ -85,12 +85,6 @@ const Footer = () => {
       <div className="px-[25px] lg:px-28 py-7 flex flex-col lg:flex-row gap-7 lg:gap-0 items-center justify-between">
         <span>@2024. All rights reserved</span>
         <div className="flex items-center justify-center gap-5">
-          {/* <Link>
-            <FaTwitter
-              size={24}
-              className="hover:text-myYellow transition-colors duration-150 ease-linear"
-            />
-          </Link> */}
           <Link
             to="https://www.instagram.com/aaronicenergylimited?igsh=aGthbmNneGI1bWtw"
             target="_blank"

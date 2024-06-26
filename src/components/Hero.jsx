@@ -48,7 +48,7 @@ const Hero = () => {
               Safety is our priority
             </h1>
             <p className="text-[18px] lg:text-[20px] w-full font-light text-white lg:text-black text-center lg:text-start px-[10px] lg:px-0">
-              At Aaronic Energy Limited, safety isn't just a priority. It is a
+              At Aaronic Energy Limited, safety isn't just a priority, it is a
               core value as we adhere to stringent safety standards and comply
               with regulations, and continuously strive for improvement. <br />
               With documented policies and a robust Safety Management System, we
@@ -59,7 +59,7 @@ const Hero = () => {
             <Button
               onClick={openModal}
               btnText="Get Started"
-              className="text-black lg:hidden rounded-md w-full md:w-[50%] lg:w-full flex items-center justify-center mx-auto px-8 py-4 bg-myYellow mt-10"
+              className="text-black rounded-md w-full md:w-[50%] lg:w-full flex items-center justify-center mx-auto px-8 py-4 bg-myYellow mt-10"
             />
           </div>
           <picture className="relative">
@@ -79,7 +79,7 @@ const Hero = () => {
               Safety is our priority
             </h1>
             <p className="text-[18px] lg:text-[20px] w-full font-light text-white lg:text-black text-center lg:text-start px-[10px] lg:px-0">
-              At Aaronic Energy Limited, safety isn't just a priority. It is a
+              At Aaronic Energy Limited, safety isn't just a priority, it is a
               core value as we adhere to stringent safety standards and comply
               with regulations, and continuously strive for improvement. <br />{" "}
               With documented policies and a robust Safety Management System, we
@@ -89,7 +89,7 @@ const Hero = () => {
             <Button
               onClick={openModal}
               btnText="Get Started"
-              className="text-black lg:hidden rounded-md w-full md:w-[50%] lg:w-full flex items-center justify-center mx-auto px-8 py-4 bg-myYellow mt-10"
+              className="text-black rounded-md w-full md:w-[50%] lg:w-full flex items-center justify-center mx-auto px-8 py-4 bg-myYellow mt-10"
             />
           </div>
           <picture className="relative">
@@ -109,7 +109,7 @@ const Hero = () => {
               Safety is our priority
             </h1>
             <p className="text-[18px] lg:text-[20px] w-full lg:w-[90%] font-light text-white lg:text-black text-center lg:text-start px-[10px] lg:px-0">
-              At Aaronic Energy Limited, safety isn't just a priority. It is a
+              At Aaronic Energy Limited, safety isn't just a priority, it is a
               core value as we adhere to stringent safety standards and comply
               with regulations, and continuously strive for improvement. <br />{" "}
               With documented policies and a robust Safety Management System, we
@@ -119,7 +119,7 @@ const Hero = () => {
             <Button
               onClick={openModal}
               btnText="Get Started"
-              className="text-black lg:hidden rounded-md w-full md:w-[50%] lg:w-full flex items-center justify-center mx-auto px-8 py-4 bg-myYellow mt-10"
+              className="text-black rounded-md w-full md:w-[50%] lg:w-full flex items-center justify-center mx-auto px-8 py-4 bg-myYellow mt-10"
             />
           </div>
           <picture className="relative">

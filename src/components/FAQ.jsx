@@ -8,7 +8,7 @@ const FAQItem = ({ question, answer, isOpen, onClick }) => {
   };
 
   return (
-    <div className="faq-item">
+    <div className="mb-4">
       <div className="faq-question" onClick={onClick}>
         <h3>{question}</h3>
         {isOpen ? (
