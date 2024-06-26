@@ -1,5 +1,5 @@
 import React from "react";
-import UPSimg from "../assets/usp.png";
+import UPSimg from "../assets/usp.webp";
 import OrangeSlant from "../assets/orangeslant.png";
 
 const UPS = () => {

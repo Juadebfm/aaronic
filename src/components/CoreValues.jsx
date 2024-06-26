@@ -1,6 +1,6 @@
 import React from "react";
 import Settingsyellow from "../assets/settingsYello.svg";
-import WomanElec from "../assets/woman_electricity_pathway.png";
+import WomanElec from "../assets/woman_electricity_pathway.webp";
 
 import AOS from "aos";
 import "aos/dist/aos.css";

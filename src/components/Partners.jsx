@@ -2,8 +2,7 @@ import React from "react";
 import Partner1 from "../assets/restoration.webp";
 import Partner2 from "../assets/empisto_partner.png";
 import Partner3 from "../assets/crystalline_partners.png";
-import Partner4 from "../assets/milan_partners.png";
-import Partner5 from "../assets/bluespring.webp";
+import Partner5 from "../assets/blue.jpeg";
 
 import AOS from "aos";
 import "aos/dist/aos.css";

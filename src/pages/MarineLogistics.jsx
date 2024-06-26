@@ -1,5 +1,5 @@
 import React from "react";
-import HeroImg2 from "../assets/marine.png";
+import HeroImg2 from "../assets/marine.webp";
 import SettingsIcon from "../assets/settingsYello.svg";
 import pyramid from "../assets/pyramid.png";
 import Partners from "../components/Partners";

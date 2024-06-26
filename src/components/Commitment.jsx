@@ -1,5 +1,5 @@
 import React from "react";
-import Commit from "../assets/commit.png";
+import Commit from "../assets/commit.webp";
 import AOS from "aos";
 import "aos/dist/aos.css";
 

@@ -1,5 +1,5 @@
 import React from "react";
-import contactcomp from "../assets/contactcomp.png";
+import contactcomp from "../assets/contactcomp.webp";
 import { Link } from "react-router-dom";
 import { TbPhoneCall } from "react-icons/tb";
 import { TfiInstagram } from "react-icons/tfi";

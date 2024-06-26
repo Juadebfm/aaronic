@@ -1,5 +1,5 @@
 import React from "react";
-import AEnergy from "../assets/aaronic_energy.png";
+import AEnergy from "../assets/aaronic_energy.webp";
 import YellowElement from "../assets/yellowelement.svg";
 import Three from "../assets/12.png";
 import Four from "../assets/4+.png";

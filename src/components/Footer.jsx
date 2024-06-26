@@ -60,8 +60,24 @@ const Footer = () => {
           <div className="space-y-5">
             <span className="text-[18px] font-bold">Resources</span>
             <ul className="flex flex-col items-start justify-start space-y-4">
-              <Link to="/contact">Contact Us</Link>
-              <Link to="/FAQ">FAQs</Link>
+              <Link
+                to="/contact"
+                className={`${
+                  location.pathname === "/contact"
+                    ? "text-gray-500"
+                    : "text-black"
+                } underline-offset-4 transition-all duration-150 ease-linear hover:text-gray-500`}
+              >
+                Contact Us
+              </Link>
+              <Link
+                to="/FAQ"
+                className={`${
+                  location.pathname === "/FAQ" ? "text-gray-500" : "text-black"
+                } underline-offset-4 transition-all duration-150 ease-linear hover:text-gray-500`}
+              >
+                FAQs
+              </Link>
             </ul>
           </div>
         </div>

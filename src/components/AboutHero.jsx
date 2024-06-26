@@ -1,7 +1,7 @@
 import React from "react";
 import SettingsIcon from "../assets/blackHelment.svg";
 import spiral from "../assets/spiral.png";
-import AboutHeroImg from "../assets/aboutUsHero.png";
+import AboutHeroImg from "../assets/aboutUsHero.webp";
 
 const AboutHero = () => {
   return (
@@ -9,7 +9,7 @@ const AboutHero = () => {
       <img
         src={spiral}
         alt="spiral background"
-        className="absolute top-0 right-0 -z-10 h-full"
+        className="absolute top-0 right-0 -z-10 h-full w-full"
       />
       <div className="lg:hidden absolute inset-0 bg-black/45 opacity-45 -z-10"></div>
 
@@ -31,7 +31,11 @@ const AboutHero = () => {
           </p>
         </div>
 
-        <img src={AboutHeroImg} alt="" className="" />
+        <img
+          src={AboutHeroImg}
+          alt=""
+          className="w-[70%] h-auto rounded-xl mx-auto"
+        />
       </div>
     </div>
   );

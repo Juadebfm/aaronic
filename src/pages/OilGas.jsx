@@ -1,5 +1,5 @@
 import React from "react";
-import HeroImg2 from "../assets/oil_gas.png";
+import HeroImg2 from "../assets/oil_gas.webp";
 import SettingsIcon from "../assets/settings_black.svg";
 import pyramid from "../assets/pyramid.png";
 import Partners from "../components/Partners";

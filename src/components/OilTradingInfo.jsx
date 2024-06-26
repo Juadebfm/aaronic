@@ -1,6 +1,5 @@
 import React from "react";
-import Settingsyellow from "../assets/settingsYello.svg";
-import WomanElec from "../assets/woman_electricity_pathway.png";
+
 const OilTradingInfo = () => {
   return (
     <div className="p-[30px] lg:p-28">
