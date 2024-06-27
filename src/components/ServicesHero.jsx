@@ -1,5 +1,5 @@
 import React from "react";
-import HeroImg2 from "../assets/man_electricity_partner.webp";
+import HeroImg2 from "../assets/newHero2.webp";
 import SettingsIcon from "../assets/settings_black.svg";
 import pyramid from "../assets/pyramid.png";
 
@@ -17,7 +17,7 @@ const ServicesHero = () => {
               Our Services
             </p>
           </div>
-          <h1 className="text-[62px] text-white drop-shadow-xl font-bold leading-tight mt-5">
+          <h1 className="text-[62px] drop-shadow-xl font-bold leading-tight mt-5">
             Comprehensive Energy Solutions Tailored for the Modern World
           </h1>
         </div>

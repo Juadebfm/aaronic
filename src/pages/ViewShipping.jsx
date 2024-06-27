@@ -1,5 +1,5 @@
 import React from "react";
-import HeroImg2 from "../assets/shipping.jpg";
+import HeroImg2 from "../assets/img.webp";
 import SettingsIcon from "../assets/settings_black.svg";
 import pyramid from "../assets/pyramid.png";
 import Partners from "../components/Partners";
@@ -14,7 +14,7 @@ const ViewShipping = () => {
   return (
     <div>
       <div className="relative mt-20">
-        <div className="absolute left-0 top-1/2 transform -translate-y-1/2 px-[30px] lg:px-28 w-full lg:w-[65%] z-10 drop-shadow-lg">
+        <div className="absolute right-0 top-1/2 transform -translate-y-1/2 px-[30px] lg:px-28 w-full lg:w-[55%] z-10 drop-shadow-lg">
           <div className="hidden md:flex md:mx-auto lg:mx-0 items-center bg-myYellow/70 text-black py-3 px-6 w-max">
             <img src={SettingsIcon} alt="Settings" className="mr-2" />
             <p className="drop-shadow-sm font-light text-[18px]">
