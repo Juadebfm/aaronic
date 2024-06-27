@@ -46,7 +46,7 @@ const PageRoutes = ({ setLoading }) => {
     setLoading(true);
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 1000); // Simulating loading time, adjust as needed
+    }, 2500); // Simulating loading time, adjust as needed
 
     return () => clearTimeout(timer);
   }, [location, setLoading]);

@@ -40,7 +40,7 @@ const Hero = () => {
           disableOnInteraction: false,
         }}
         modules={[Autoplay, Pagination, Navigation]}
-        className="mySwiper h-max lg:h-screen"
+        className="mySwiper h-max lg:h-max"
       >
         <SwiperSlide className="relative">
           <div className="absolute left-0 top-1/2 transform -translate-y-1/2 px-[15px] md:px-20 lg:px-28 w-full lg:w-[50%] drop-shadow-md z-10">

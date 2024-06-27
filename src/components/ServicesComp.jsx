@@ -15,6 +15,28 @@ const ServicesComp = () => {
       <div
         className="w-full lg:w-[311px] h-auto lg:h-[373px] relative"
         data-aos="fade-up"
+        data-aos-duration="1500"
+      >
+        <img src={Slanted} alt="" className="h-auto w-full" />
+        <div className="absolute -top-7 w-full h-full">
+          <img
+            src={Shipping}
+            alt="Oil Trading"
+            className="w-[240px] h-[190px] mb-7"
+          />
+          <div className="flex items-center justify-center flex-col">
+            <h3 className="font-bold text-[18px] mb-4">Shipping</h3>
+            <p className="text-[18px] font-light text-center drop-shadow-md">
+              Here, we offer a range of shipping services designed to support
+              its operations in the energy sector, specializing in the
+              transportation of oil & gas.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        className="w-full lg:w-[311px] h-auto lg:h-[373px] relative"
+        data-aos="fade-up"
         data-aos-duration="1000"
       >
         <img src={Slanted} alt="" />
@@ -35,28 +57,7 @@ const ServicesComp = () => {
           </div>
         </div>
       </div>
-      <div
-        className="w-full lg:w-[311px] h-auto lg:h-[373px] relative"
-        data-aos="fade-up"
-        data-aos-duration="1500"
-      >
-        <img src={Slanted} alt="" className="h-auto w-full" />
-        <div className="absolute -top-7 w-full h-full">
-          <img
-            src={Shipping}
-            alt="Oil Trading"
-            className="w-[240px] h-[190px] mb-7"
-          />
-          <div className="flex items-center justify-center flex-col">
-            <h3 className="font-bold text-[18px] mb-4">Shipping</h3>
-            <p className="text-[18px] font-light text-center drop-shadow-md">
-              Here, we offer a range of shipping services designed to support
-              its operations in the energy sector, specializing in the
-              transportation of oil & gas.
-            </p>
-          </div>
-        </div>
-      </div>
+
       <div
         className="w-full lg:w-[311px] h-auto lg:h-[373px] relative"
         data-aos="fade-up"
