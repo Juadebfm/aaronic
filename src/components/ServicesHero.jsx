@@ -9,8 +9,8 @@ import HeroImg1 from "../assets/img.webp";
 const ServicesHero = () => {
   return (
     <>
-      <div className="hidden lg:block relative mt-20 h-max">
-        <div className="absolute left-0 top-1/2 transform -translate-y-1/2 px-[30px] lg:px-28 w-full lg:w-[55%] z-10">
+      <div className="hidden lg:block relative mt-20 h-full">
+        <div className="absolute left-0 top-1/2 transform -translate-y-1/2 px-[30px] lg:px-28 w-full lg:w-[55%] z-20">
           <div className="flex items-center bg-white/70 text-black py-3 px-6 w-max">
             <img src={SettingsIcon} alt="Settings" className="mr-2" />
             <p className="drop-shadow-sm font-light text-[18px]">
@@ -26,7 +26,11 @@ const ServicesHero = () => {
           alt="pyramid"
           className="absolute bottom-0 left-0 w-[60%] z-10"
         />
-        <img src={HeroImg2} alt="Engineers" className="h-max w-full gray_image" />
+        <img
+          src={HeroImg2}
+          alt="Engineers"
+          className="h-max w-full gray_image"
+        />
       </div>
       <div className=" lg:hidden relative">
         <div className="absolute right-0 top-1/2 transform -translate-y-1/2 pr-[15px] lg:pr-28 pl-[15px] lg:pl-0 w-full lg:w-[45%] z-10">
