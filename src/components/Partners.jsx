@@ -38,13 +38,18 @@ const Partners = () => {
           width={238}
           height={84}
         />
-        <img
-          src={Partner5}
-          alt="Milan"
-          className="h-[84px] w-auto gray-image"
-          data-aos="fade-up"
-          data-aos-duration="2000"
-        />
+        <div className="flex flex-col items-center justify-center">
+          <img
+            src={Partner5}
+            alt="Milan"
+            className="h-[84px] w-auto gray-image"
+            data-aos="fade-up"
+            data-aos-duration="2000"
+          />
+          <span className="text-[9px] font-inter mt-2">
+            Blue Springs Energy
+          </span>
+        </div>
       </div>
     </div>
   );
